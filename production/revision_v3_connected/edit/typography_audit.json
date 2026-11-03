@@ -1,0 +1,555 @@
+{
+  "all_fit": true,
+  "items": [
+    {
+      "text": "INSIGHTGEN  /  BLUE ORBIT",
+      "box": [
+        48.0,
+        28.5,
+        280.0,
+        43.5
+      ],
+      "size": 18,
+      "fits": true
+    },
+    {
+      "text": "How we make it work at Amex",
+      "box": [
+        48.0,
+        73.5,
+        559.0,
+        101.5
+      ],
+      "size": 37,
+      "fits": true
+    },
+    {
+      "text": "The shared enterprise foundation behind this investigation",
+      "box": [
+        50.0,
+        119.5,
+        644.5,
+        142.5
+      ],
+      "size": 23,
+      "fits": true
+    },
+    {
+      "text": "Blue Orbit  /  Shared foundation \u00b7 Specialized agents",
+      "box": [
+        318.0,
+        660.0,
+        962.0,
+        687.0
+      ],
+      "size": 27,
+      "fits": true
+    },
+    {
+      "text": "Our differentiator: the enterprise system",
+      "box": [
+        48.0,
+        73.0,
+        723.5,
+        110.0
+      ],
+      "size": 37,
+      "fits": true
+    },
+    {
+      "text": "Business-owned knowledge, expert methods, controlled access and a learning loop",
+      "box": [
+        50.0,
+        119.5,
+        892.5,
+        142.5
+      ],
+      "size": 23,
+      "fits": true
+    },
+    {
+      "text": "GENERAL-PURPOSE CAPABILITY",
+      "box": [
+        158.5,
+        173.5,
+        482.5,
+        189.0
+      ],
+      "size": 22,
+      "fits": true
+    },
+    {
+      "text": "Reasoning + tools",
+      "box": [
+        240.0,
+        203.0,
+        400.5,
+        222.5
+      ],
+      "size": 20,
+      "fits": true
+    },
+    {
+      "text": "BLUE ORBIT ENTERPRISE SYSTEM",
+      "box": [
+        793.0,
+        173.5,
+        1127.0,
+        189.0
+      ],
+      "size": 22,
+      "fits": true
+    },
+    {
+      "text": "Business-owned \u00b7 Reusable \u00b7 Traceable",
+      "box": [
+        790.5,
+        203.0,
+        1129.5,
+        218.0
+      ],
+      "size": 20,
+      "fits": true
+    },
+    {
+      "text": "Connect expertise and evidence into a reusable operating system",
+      "box": [
+        257.0,
+        660.0,
+        1022.5,
+        686.0
+      ],
+      "size": 26,
+      "fits": true
+    },
+    {
+      "text": "Business teams curate expertise",
+      "box": [
+        48.0,
+        73.5,
+        579.0,
+        109.5
+      ],
+      "size": 37,
+      "fits": true
+    },
+    {
+      "text": "Enterprise Knowledge Foundation  /  Definitions \u00b7 Policies \u00b7 Context",
+      "box": [
+        50.0,
+        119.5,
+        727.5,
+        142.5
+      ],
+      "size": 23,
+      "fits": true
+    },
+    {
+      "text": "Business teams",
+      "box": [
+        1027.5,
+        147.0,
+        1152.0,
+        160.5
+      ],
+      "size": 18,
+      "fits": true
+    },
+    {
+      "text": "Select the definition",
+      "box": [
+        512.0,
+        660.5,
+        767.5,
+        682.0
+      ],
+      "size": 28,
+      "fits": true
+    },
+    {
+      "text": "Review the policy context",
+      "box": [
+        478.0,
+        660.5,
+        802.5,
+        688.5
+      ],
+      "size": 28,
+      "fits": true
+    },
+    {
+      "text": "Publish governed knowledge",
+      "box": [
+        455.0,
+        660.5,
+        825.0,
+        688.5
+      ],
+      "size": 28,
+      "fits": true
+    },
+    {
+      "text": "C-60",
+      "box": [
+        460.0,
+        166.0,
+        502.5,
+        180.0
+      ],
+      "size": 20,
+      "fits": true
+    },
+    {
+      "text": "Definition",
+      "box": [
+        460.0,
+        190.0,
+        540.5,
+        203.5
+      ],
+      "size": 18,
+      "fits": true
+    },
+    {
+      "text": "Enterprise Knowledge Foundation \u2192 Skill Foundry",
+      "box": [
+        48.0,
+        27.0,
+        616.5,
+        52.0
+      ],
+      "size": 25,
+      "fits": true
+    },
+    {
+      "text": "INSIGHTGEN / BLUE ORBIT",
+      "box": [
+        1033.5,
+        29.0,
+        1230.0,
+        42.5
+      ],
+      "size": 16,
+      "fits": true
+    },
+    {
+      "text": "C-60 definition \u00b7 Source-linked",
+      "box": [
+        49.0,
+        62.0,
+        303.0,
+        76.5
+      ],
+      "size": 19,
+      "fits": true
+    },
+    {
+      "text": "Ground the method \u2192 Compare \u00b7 Segment \u00b7 Test",
+      "box": [
+        354.0,
+        660.0,
+        926.0,
+        686.0
+      ],
+      "size": 26,
+      "fits": true
+    },
+    {
+      "text": "Skill Foundry \u2022 Compose knowledge-grounded primitives",
+      "box": [
+        48.0,
+        27.0,
+        699.0,
+        52.0
+      ],
+      "size": 25,
+      "fits": true
+    },
+    {
+      "text": "Compose \u2192 Validate \u2192 Reuse",
+      "box": [
+        457.0,
+        660.5,
+        823.5,
+        686.5
+      ],
+      "size": 27,
+      "fits": true
+    },
+    {
+      "text": "InsightGen \u2022 Apply the team\u2019s knowledge and skill",
+      "box": [
+        48.0,
+        27.0,
+        620.0,
+        52.0
+      ],
+      "size": 25,
+      "fits": true
+    },
+    {
+      "text": "Business question \u2192 Permitted data \u2192 Findings + Execution evidence",
+      "box": [
+        245.5,
+        659.0,
+        1034.5,
+        684.0
+      ],
+      "size": 25,
+      "fits": true
+    },
+    {
+      "text": "Business teams",
+      "box": [
+        140.0,
+        137.0,
+        291.5,
+        154.0
+      ],
+      "size": 22,
+      "fits": true
+    },
+    {
+      "text": "Ask InsightGen",
+      "box": [
+        185.0,
+        182.5,
+        342.5,
+        205.5
+      ],
+      "size": 23,
+      "fits": true
+    },
+    {
+      "text": "Same governed skill",
+      "box": [
+        782.88,
+        577.76,
+        946.88,
+        595.26
+      ],
+      "size": 18,
+      "fits": true
+    },
+    {
+      "text": "Same governed skill",
+      "box": [
+        558.0,
+        571.72,
+        722.0,
+        589.22
+      ],
+      "size": 18,
+      "fits": true
+    },
+    {
+      "text": "Agent Observability Framework \u2022 Capture this run\u2019s evidence",
+      "box": [
+        48.0,
+        27.0,
+        741.0,
+        52.0
+      ],
+      "size": 25,
+      "fits": true
+    },
+    {
+      "text": "Capture the run \u2192 Evaluate quality \u2192 Select a review",
+      "box": [
+        330.5,
+        660.0,
+        950.0,
+        686.0
+      ],
+      "size": 26,
+      "fits": true
+    },
+    {
+      "text": "Query-method review",
+      "box": [
+        827.0,
+        495.0,
+        1045.0,
+        517.0
+      ],
+      "size": 22,
+      "fits": true
+    },
+    {
+      "text": "AOF \u2192 Harness Intelligence \u2022 Query-method review",
+      "box": [
+        48.0,
+        27.0,
+        636.5,
+        52.0
+      ],
+      "size": 25,
+      "fits": true
+    },
+    {
+      "text": "Evidence \u2192 Candidate change \u2192 Tests \u2192 Validation",
+      "box": [
+        337.5,
+        660.0,
+        942.5,
+        686.0
+      ],
+      "size": 26,
+      "fits": true
+    },
+    {
+      "text": "Same run evidence",
+      "box": [
+        280.0,
+        494.0,
+        461.0,
+        510.0
+      ],
+      "size": 21,
+      "fits": true
+    },
+    {
+      "text": "Harness Intelligence \u2022 Test a candidate method change",
+      "box": [
+        48.0,
+        27.0,
+        674.5,
+        52.0
+      ],
+      "size": 25,
+      "fits": true
+    },
+    {
+      "text": "Candidate method change",
+      "box": [
+        948.5,
+        334.0,
+        1187.0,
+        353.5
+      ],
+      "size": 20,
+      "fits": true
+    },
+    {
+      "text": "Return the validated skill",
+      "box": [
+        48.0,
+        27.0,
+        330.0,
+        46.0
+      ],
+      "size": 25,
+      "fits": true
+    },
+    {
+      "text": "Skill Foundry \u2192 Next agent run",
+      "box": [
+        49.0,
+        63.0,
+        325.0,
+        82.5
+      ],
+      "size": 20,
+      "fits": true
+    },
+    {
+      "text": "Skill Foundry library",
+      "box": [
+        985.0,
+        609.0,
+        1165.0,
+        628.5
+      ],
+      "size": 20,
+      "fits": true
+    },
+    {
+      "text": "Next agent run",
+      "box": [
+        1032.0,
+        363.0,
+        1168.0,
+        381.5
+      ],
+      "size": 20,
+      "fits": true
+    },
+    {
+      "text": "Updated skill",
+      "box": [
+        612.43,
+        601.44,
+        729.93,
+        620.94
+      ],
+      "size": 20,
+      "fits": true
+    },
+    {
+      "text": "Built once. Specialized many times. Improving continuously.",
+      "box": [
+        246.5,
+        661.0,
+        1034.0,
+        689.5
+      ],
+      "size": 29,
+      "fits": true
+    },
+    {
+      "text": "InsightGen",
+      "box": [
+        48.0,
+        83.5,
+        299.5,
+        133.5
+      ],
+      "size": 51,
+      "fits": true
+    },
+    {
+      "text": "An evidence-backed business investigation",
+      "box": [
+        50.0,
+        137.0,
+        541.5,
+        163.0
+      ],
+      "size": 26,
+      "fits": true
+    },
+    {
+      "text": "Today\u2019s demo",
+      "box": [
+        48.0,
+        77.0,
+        265.0,
+        110.5
+      ],
+      "size": 34,
+      "fits": true
+    },
+    {
+      "text": "01  InsightGen in action",
+      "box": [
+        469.5,
+        582.0,
+        810.5,
+        614.0
+      ],
+      "size": 32,
+      "fits": true
+    },
+    {
+      "text": "02  How we make it work at Amex",
+      "box": [
+        391.5,
+        633.0,
+        889.0,
+        657.5
+      ],
+      "size": 32,
+      "fits": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+id,file,nominal_start_seconds,nominal_end_seconds,natural_duration_seconds,window_overrun_seconds,actual_start_seconds,actual_end_seconds,shift_from_nominal_start_seconds,voice_id,speed,pitch
+demo_01,demo_01.mp3,0,12,9.845261,0,0.0,9.845261,0.0,English_ConfidentWoman,1.04,-1
+demo_02,demo_02.mp3,12,23,10.33288,0,12.0,22.33288,0.0,English_ConfidentWoman,1.04,-1
+demo_03,demo_03.mp3,23,33,9.636281,0,23.0,32.636281,0.0,English_ConfidentWoman,1.04,-1
+demo_04,demo_04.mp3,33,47,11.029478,0,33.0,44.029478,0.0,English_ConfidentWoman,1.04,-1
+demo_05,demo_05.mp3,47,58,8.243084,0,47.0,55.243084,0.0,English_ConfidentWoman,1.04,-1
+demo_06,demo_06.mp3,58,67,7.093696,0,58.0,65.093696,0.0,English_ConfidentWoman,1.04,-1
+demo_07,demo_07.mp3,67,80,14.236735,1.2367349999999995,67.0,81.236735,0.0,English_ConfidentWoman,1.04,-1
+demo_08,demo_08.mp3,80,92,10.623129,0,81.356735,91.979864,1.356735,English_ConfidentWoman,1.04,-1
+demo_09,demo_09.mp3,92,99,9.183492,2.1834919999999993,92.099864,101.283356,0.099864,English_ConfidentWoman,1.04,-1

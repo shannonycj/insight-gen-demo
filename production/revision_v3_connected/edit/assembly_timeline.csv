@@ -1,0 +1,4 @@
+section,reference_global_start,reference_global_end,duration_seconds,source,note
+Opening,0,14,14,insightgen_v3_connected_opening_narrated.mp4,Approved narration included
+Owner-held recording — reference slot,14,113,99,OWNER_RECORDING_NOT_PROVIDED,Reference only; actual narration requires 101.283 seconds at the fixed approved speed
+Under the hood — reference position,113,183,70,insightgen_v3_connected_underthehood_narrated.mp4,Rebase start to 14 + actual aligned recording duration

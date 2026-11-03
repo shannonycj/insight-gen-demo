@@ -1,0 +1,1 @@
+It consults the governed knowledge bundle for metric definitions, calculation rules, and source tables, before querying the data and running the analysis.

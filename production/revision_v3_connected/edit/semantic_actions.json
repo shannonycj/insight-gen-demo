@@ -1,0 +1,124 @@
+{
+  "business_role_identity": "Same three-person business-team illustration/cursor at curation and question launch",
+  "curation": {
+    "select_definition": [
+      18.3,
+      20.3
+    ],
+    "review_policy": [
+      20.3,
+      22.7
+    ],
+    "publish": [
+      22.7,
+      26
+    ]
+  },
+  "question_initiated_by_business_team": [
+    39.3,
+    42.1
+  ],
+  "same_composed_skill": {
+    "copy_leaves_collection": 39.5,
+    "lands_in_selected_insightgen_report": 41.3,
+    "source_asset": "assets/skill.png",
+    "three_primitives_retained": "Compare, Segment, Test pictograms are carried as one actual v2-derived asset; original collection remains in the source scene"
+  },
+  "amber_evidence": {
+    "meaning": "Query-method review: illustrative quality review of a contributing query method, not an asserted defect in the real recording",
+    "AOF_outgoing": [
+      51.8,
+      54
+    ],
+    "Harness_incoming": [
+      54,
+      56.8
+    ]
+  },
+  "candidate_method_change": [
+    58.1,
+    62.2
+  ],
+  "validation_before_release": 62.2,
+  "same_updated_skill": {
+    "leaves_validated_action": [
+      62.2,
+      64.3
+    ],
+    "lands_in_skill_foundry_library": 64.3,
+    "copy_enters_next_agent_run": [
+      64.5,
+      66.2
+    ],
+    "receiving_run_reacts": [
+      66.2,
+      67.4
+    ]
+  },
+  "audio": "Approved source WAVs mapped unchanged; no tempo or pitch retiming; only AAC delivery encoding",
+  "source_excerpts": [
+    {
+      "id": "foundation",
+      "start": 0,
+      "end": 6,
+      "ready": true,
+      "file": "clean/foundation.mp4"
+    },
+    {
+      "id": "enterprise_difference",
+      "start": 6,
+      "end": 18,
+      "ready": true,
+      "file": "clean/enterprise_difference.mp4"
+    },
+    {
+      "id": "business_review_and_knowledge",
+      "start": 18,
+      "end": 26,
+      "ready": true,
+      "file": "clean/business_review_and_knowledge.mp4"
+    },
+    {
+      "id": "knowledge_to_method",
+      "start": 26,
+      "end": 32,
+      "ready": true,
+      "file": "clean/knowledge_to_method.mp4"
+    },
+    {
+      "id": "compose_the_skill",
+      "start": 32,
+      "end": 39,
+      "ready": true,
+      "file": "clean/compose_the_skill.mp4"
+    },
+    {
+      "id": "skill_to_run_to_trace",
+      "start": 39,
+      "end": 47,
+      "ready": true,
+      "file": "clean/skill_to_run_to_trace.mp4"
+    },
+    {
+      "id": "observe_the_run",
+      "start": 47,
+      "end": 54,
+      "ready": true,
+      "file": "clean/observe_the_run.mp4"
+    },
+    {
+      "id": "diagnose_test_validate_return",
+      "start": 54,
+      "end": 65,
+      "ready": true,
+      "file": "clean/diagnose_test_validate_return.mp4"
+    },
+    {
+      "id": "shared_capability_close",
+      "start": 65,
+      "end": 70,
+      "ready": true,
+      "file": "clean/shared_capability_close.mp4"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "verified_at_utc": "2026-11-03T15:34:51.724341+00:00",
+  "all_technical_checks_passed": true,
+  "checks": [
+    {
+      "name": "opening_export_and_unchanged_approved_master",
+      "passed": true,
+      "details": {
+        "file": "insightgen_v3_connected_opening_narrated.mp4",
+        "video_duration_seconds": 14.0,
+        "container_duration_seconds": 14.0,
+        "decoded_frames": 336,
+        "dimensions": [
+          1280,
+          720
+        ],
+        "fps": "24/1",
+        "audio_streams": 1,
+        "audio_sample_rate": 44100,
+        "audio_channels": 1,
+        "full_decode": "passed",
+        "approved_wav": "audio/narrative/insightgen_opening_approved_voice.wav",
+        "approved_master_correlation": {
+          "correlation": 0.9999931289316011,
+          "fixed_offset_samples": 0,
+          "fixed_offset_seconds": 0.0,
+          "reference_coverage": 1.0,
+          "comparison_method": "One fixed sample grid and at most 2048 samples of codec offset; no tempo or dynamic-time alignment"
+        },
+        "sha256": "eaeaeaa8b02a9ed15f5cd4c53f211a73c0c126b5f9c0d894862f0cb356b5b95f"
+      }
+    },
+    {
+      "name": "underhood_export_and_unchanged_approved_master",
+      "passed": true,
+      "details": {
+        "file": "insightgen_v3_connected_underthehood_narrated.mp4",
+        "video_duration_seconds": 70.0,
+        "container_duration_seconds": 70.0,
+        "decoded_frames": 1680,
+        "dimensions": [
+          1280,
+          720
+        ],
+        "fps": "24/1",
+        "audio_streams": 1,
+        "audio_sample_rate": 44100,
+        "audio_channels": 1,
+        "full_decode": "passed",
+        "approved_wav": "audio/narrative/insightgen_underthehood_approved_voice.wav",
+        "approved_master_correlation": {
+          "correlation": 0.9999930400927601,
+          "fixed_offset_samples": 0,
+          "fixed_offset_seconds": 0.0,
+          "reference_coverage": 1.0,
+          "comparison_method": "One fixed sample grid and at most 2048 samples of codec offset; no tempo or dynamic-time alignment"
+        },
+        "sha256": "b01134768d348c0b209c5ab661893dfd1a3c9dcc7f6101959901448db2caf262"
+      }
+    },
+    {
+      "name": "eighteen_stems_one_approved_voice_and_speed",
+      "passed": true,
+      "details": {
+        "approved_source_hash_matches": true,
+        "locked_settings": {
+          "voice_id": "English_ConfidentWoman",
+          "model": "speech-2.8-hd",
+          "speed": 1.04,
+          "pitch": -1,
+          "volume": 1,
+          "sample_rate": 44100,
+          "bitrate": 128000,
+          "channels": 1,
+          "key_name": "MINIMAX_KEY_2"
+        },
+        "stem_count": 18,
+        "one_settings_fingerprint": true,
+        "stems": [
+          {
+            "id": "demo_01",
+            "natural_duration_seconds": 9.845261,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "demo_02",
+            "natural_duration_seconds": 10.33288,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "demo_03",
+            "natural_duration_seconds": 9.636281,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "demo_04",
+            "natural_duration_seconds": 11.029478,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "demo_05",
+            "natural_duration_seconds": 8.243084,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "demo_06",
+            "natural_duration_seconds": 7.093696,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "demo_07",
+            "natural_duration_seconds": 14.236735,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "demo_08",
+            "natural_duration_seconds": 10.623129,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "demo_09",
+            "natural_duration_seconds": 9.183492,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "opening",
+            "natural_duration_seconds": 13.191837,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "bridge",
+            "natural_duration_seconds": 3.726803,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "differentiator",
+            "natural_duration_seconds": 13.322449,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "business_curation",
+            "natural_duration_seconds": 11.726077,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "grounded_skill",
+            "natural_duration_seconds": 8.568163,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "agent_use",
+            "natural_duration_seconds": 7.012426,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "aof",
+            "natural_duration_seconds": 6.153265,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "harness",
+            "natural_duration_seconds": 9.020952,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          },
+          {
+            "id": "close",
+            "natural_duration_seconds": 4.667211,
+            "voice_id": "English_ConfidentWoman",
+            "speed": 1.04,
+            "pitch": -1,
+            "tempo_adjustment": 1.0,
+            "key_name": "MINIMAX_KEY_2",
+            "full_decode": "passed"
+          }
+        ],
+        "project_selector_metadata": "Present; key name verified as MINIMAX_KEY_2",
+        "key_verification_scope": "Locked voice and per-stem generation metadata; project selector additionally checked when present. No secret credential files read"
+      }
+    },
+    {
+      "name": "unchanged_demo_and_all_words_transcribed",
+      "passed": true,
+      "details": {
+        "demo_unchanged": true,
+        "reference_boundaries_seconds": [
+          0,
+          12,
+          23,
+          33,
+          47,
+          58,
+          67,
+          80,
+          92,
+          99
+        ],
+        "demo_master_seconds": 101.283356,
+        "demo_window_overruns": [
+          {
+            "id": "demo_07",
+            "overrun_seconds": 1.2367349999999995
+          },
+          {
+            "id": "demo_09",
+            "overrun_seconds": 2.1834919999999993
+          }
+        ],
+        "recording_alignment": "Owner review required; complete revised recording unavailable",
+        "normalized_expected_words": 392,
+        "normalized_recognized_words": 392,
+        "normalized_asr_differences": 0,
+        "asr_source_stems": 18,
+        "asr_speakers": 1,
+        "manual_listening": "Not performed by verifier"
+      }
+    },
+    {
+      "name": "source_variety_non_repetition_and_typography",
+      "passed": true,
+      "details": {
+        "contiguous_visual_seconds": 70,
+        "source_excerpts_do_not_repeat": true,
+        "rejected_v3_imagery_excluded": true,
+        "sources": [
+          {
+            "id": "opening",
+            "source": "revision_v2/film/clean/shot1.mp4",
+            "source_range": [
+              0,
+              10
+            ],
+            "source_duration_seconds": 10.0,
+            "target_seconds": 14,
+            "render_cache_available": true
+          },
+          {
+            "id": "foundation",
+            "source": "revision_v2/film/clean/shot3.mp4",
+            "source_range": [
+              2,
+              8
+            ],
+            "source_duration_seconds": 10.0,
+            "target_seconds": 6,
+            "render_cache_available": true
+          },
+          {
+            "id": "enterprise_difference",
+            "source": "revision_v2/film/clean/shot2.mp4",
+            "source_range": [
+              1,
+              13
+            ],
+            "source_duration_seconds": 14.0,
+            "target_seconds": 12,
+            "render_cache_available": true
+          },
+          {
+            "id": "business_review_and_knowledge",
+            "source": "revision_v2/film/clean/shot4.mp4",
+            "source_range": [
+              0,
+              6
+            ],
+            "source_duration_seconds": 9.0,
+            "target_seconds": 8,
+            "render_cache_available": true
+          },
+          {
+            "id": "knowledge_to_method",
+            "source": "revision_v3_connected/raw/knowledge_to_method.mp4",
+            "source_range": [
+              0,
+              6.583333
+            ],
+            "source_duration_seconds": 6.583333,
+            "target_seconds": 6,
+            "render_cache_available": true
+          },
+          {
+            "id": "compose_the_skill",
+            "source": "revision_v2/film_refined/clean/shot5.mp4",
+            "source_range": [
+              4,
+              11
+            ],
+            "source_duration_seconds": 11.0,
+            "target_seconds": 7,
+            "render_cache_available": true
+          },
+          {
+            "id": "skill_to_run_to_trace",
+            "source": "revision_v3_connected/raw/skill_to_run_to_trace.mp4",
+            "source_range": [
+              0,
+              8.0
+            ],
+            "source_duration_seconds": 8.0,
+            "target_seconds": 8,
+            "render_cache_available": true
+          },
+          {
+            "id": "observe_the_run",
+            "source": "revision_v2/film_refined/clean/shot6.mp4",
+            "source_range": [
+              1,
+              8
+            ],
+            "source_duration_seconds": 9.0,
+            "target_seconds": 7,
+            "render_cache_available": true
+          },
+          {
+            "id": "diagnose_test_validate_return",
+            "source": "revision_v2/film_refined/clean/shot7.mp4",
+            "source_range": [
+              0,
+              11
+            ],
+            "source_duration_seconds": 15.0,
+            "target_seconds": 11,
+            "render_cache_available": true
+          },
+          {
+            "id": "shared_capability_close",
+            "source": "revision_v2/film_refined/clean/shot7.mp4",
+            "source_range": [
+              11,
+              15
+            ],
+            "source_duration_seconds": 15.0,
+            "target_seconds": 5,
+            "render_cache_available": true
+          }
+        ],
+        "checked_text_items": 50,
+        "all_typography_within_bounds": true,
+        "semantic_scope": "Recorded action timing only; actual visible handoffs require separate visual review"
+      }
+    }
+  ],
+  "verification_api_calls": 0,
+  "secret_credential_files_read": false,
+  "semantic_acceptance": "Not asserted by technical checks; inspect business agency, concrete artifact handoffs and validated return in the actual final frames",
+  "unverified": [
+    "Owner-held revised recording and its cue synchronization",
+    "Final assembled whole-film joins",
+    "Human listening and final owner visual approval"
+  ]
+}

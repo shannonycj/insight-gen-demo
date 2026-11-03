@@ -1,0 +1,45 @@
+{
+  "version": "3-connected",
+  "key_name": "MINIMAX_KEY_2",
+  "model": "MiniMax-H3",
+  "purpose": "Only missing output-to-input handoffs; distinct v2 source elements retained",
+  "video_requests": [
+    {
+      "id": "knowledge_to_method",
+      "status": "succeeded",
+      "cli_session": 24368,
+      "requested_duration_seconds": 6,
+      "input_mode": "first_last_frame",
+      "first": "assets/references/knowledge_graph_start.png",
+      "last": "assets/references/grounded_primitives_end.png",
+      "prompt": "prompts/knowledge_to_method.txt",
+      "file": "raw/knowledge_to_method.mp4",
+      "task_id": "459428722881002",
+      "visual_review": "Bookmarked source definition visibly travels with gold provenance and docks above the method primitives; accepted for edit"
+    },
+    {
+      "id": "skill_to_run_to_trace",
+      "status": "succeeded",
+      "requested_duration_seconds": 8,
+      "input_mode": "first_last_frame",
+      "first": "assets/references/composed_skill_start.png",
+      "last": "assets/references/run_trace_end.png",
+      "prompt": "prompts/skill_to_run_to_trace.txt",
+      "file": "raw/skill_to_run_to_trace.mp4",
+      "task_id": "459430670307662",
+      "visual_review": "Agent run visibly emits the ordered trace; method-copy identity is completed by the same v2-derived three-primitive folder overlay in the local edit"
+    }
+  ],
+  "planned_next_video": null,
+  "reuse_policy": "Each selected v2 excerpt used once; no recurring glass-report world; local review/ask/evidence/return actions provide business agency and lineage",
+  "voice_settings_source": "audio/voice_lock.json",
+  "speech_tempo_retiming_permitted": false,
+  "status": "completed",
+  "completion_scope": "Both generated connectors, 14-second opening and 70-second explainer narrated/silent exports, and approved fixed-speed narration are complete. Independent technical and sampled semantic checks passed.",
+  "verification_reports": [
+    "qc/verification.json",
+    "qc/semantic_review.json",
+    "edit/delivery_verification.json"
+  ],
+  "owner_held_recording_status": "Unavailable; recording alignment, complete UI framing and whole-film joins remain unverified."
+}

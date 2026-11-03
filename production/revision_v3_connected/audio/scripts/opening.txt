@@ -1,0 +1,1 @@
+Today, we'll see InsightGen investigate a real business question on Blue Orbit. Then we'll go under the hood: how business expertise, connected components, and continuous improvement make it work at Amex.

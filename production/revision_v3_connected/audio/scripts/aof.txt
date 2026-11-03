@@ -1,0 +1,1 @@
+As the agent runs, the Agent Observability Framework captures its execution trace and quality signals.

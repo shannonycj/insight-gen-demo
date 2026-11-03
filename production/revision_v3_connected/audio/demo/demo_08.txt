@@ -1,0 +1,1 @@
+We ask it to test the top two. The results reject favorable portfolio mix as the explanation and find repayment behavior supportive for Charge, but not Lend.

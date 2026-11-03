@@ -1,0 +1,17 @@
+{
+  "purpose": "Refine the positively received Confident Woman sample toward a more professional, warm conversational delivery, with Juniper cited by user as a style reference. Full video unchanged.",
+  "method": "Same system voice with slightly reduced speed and pitch; no Juniper reference audio or voice cloning used",
+  "voice_id": "English_ConfidentWoman",
+  "model": "speech-2.8-hd",
+  "speed": 1.04,
+  "pitch": -1,
+  "volume": 1,
+  "sample_rate": 44100,
+  "bitrate": 128000,
+  "script": "demo_script.txt",
+  "audio": "insightgen_polished_american_demo.mp3",
+  "approved_by_user": true,
+  "original_generation_key_name": "MINIMAX_KEY_1",
+  "active_key_name": "MINIMAX_KEY_2",
+  "approved_audio_sha256": "6d95d9378deca1f225d4014168f177324dfe764d6f898fe1d6b5712796709e63"
+}

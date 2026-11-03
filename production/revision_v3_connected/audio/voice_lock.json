@@ -1,0 +1,25 @@
+{
+  "voice_id": "English_ConfidentWoman",
+  "model": "speech-2.8-hd",
+  "speed": 1.04,
+  "pitch": -1,
+  "volume": 1,
+  "sample_rate": 44100,
+  "bitrate": 128000,
+  "channels": 1,
+  "format": "mp3",
+  "language": "English",
+  "key_name": "MINIMAX_KEY_2",
+  "pronunciation": [
+    "InsightGen/Insight Jen",
+    "C-sixty/see sixty",
+    "SQL/S Q L",
+    "AOF/A O F"
+  ],
+  "approved_source_audio": "production/voice_demo/insightgen_polished_american_demo.mp3",
+  "approved_source_sha256": "6d95d9378deca1f225d4014168f177324dfe764d6f898fe1d6b5712796709e63",
+  "voice_source_settings_sha256": "1341eacd3bb427482a4d69397663e80a9d75f62e4068fbe1d40c86f21bc842df",
+  "speed_changes_per_segment_allowed": false,
+  "post_tempo_retiming_allowed": false,
+  "approved_voice_cloning": false
+}

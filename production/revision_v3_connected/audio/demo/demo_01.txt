@@ -1,0 +1,1 @@
+This is InsightGen, the insight generation agent in Blue Orbit. We start by creating a workspace and enabling Lumi MCP and analytical skills.

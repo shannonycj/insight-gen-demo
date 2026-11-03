@@ -1,0 +1,33 @@
+{
+  "masters": [
+    {
+      "file": "insightgen_opening_approved_voice.wav",
+      "duration_seconds": 14.0,
+      "target_seconds": 14,
+      "sample_rate": 44100,
+      "channels": 1,
+      "full_decode": "passed"
+    },
+    {
+      "file": "insightgen_underthehood_approved_voice.wav",
+      "duration_seconds": 70.0,
+      "target_seconds": 70,
+      "sample_rate": 44100,
+      "channels": 1,
+      "full_decode": "passed"
+    }
+  ],
+  "speech_retimed": false,
+  "all_voice_settings_locked": true,
+  "transcript_normalized_exact_match": true,
+  "levels": {
+    "insightgen_opening_approved_voice.wav": {
+      "mean_volume_db": -21.7,
+      "max_volume_db": -3.6
+    },
+    "insightgen_underthehood_approved_voice.wav": {
+      "mean_volume_db": -22.1,
+      "max_volume_db": -3.8
+    }
+  }
+}

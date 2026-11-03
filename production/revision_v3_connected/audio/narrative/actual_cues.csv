@@ -1,0 +1,10 @@
+id,section,file,nominal_start_seconds,nominal_end_seconds,natural_duration_seconds,window_overrun_seconds,actual_start_seconds,actual_end_seconds,shift_from_nominal_start_seconds,voice_id,speed,pitch
+opening,opening,opening_raw.mp3,0,14,13.191837,0,0.0,13.191837,0.0,English_ConfidentWoman,1.04,-1
+bridge,under_the_hood,bridge_raw.mp3,0,6,3.726803,0,0.0,3.726803,0.0,English_ConfidentWoman,1.04,-1
+differentiator,under_the_hood,differentiator_raw.mp3,6,18,13.322449,1.3224490000000007,6.0,19.322449,0.0,English_ConfidentWoman,1.04,-1
+business_curation,under_the_hood,business_curation_raw.mp3,18,30,11.726077,0,19.442449,31.168526,1.442449,English_ConfidentWoman,1.04,-1
+grounded_skill,under_the_hood,grounded_skill_raw.mp3,30,40,8.568163,0,31.288526,39.856689,1.288526,English_ConfidentWoman,1.04,-1
+agent_use,under_the_hood,agent_use_raw.mp3,40,48,7.012426,0,40.0,47.012426,0.0,English_ConfidentWoman,1.04,-1
+aof,under_the_hood,aof_raw.mp3,48,55,6.153265,0,48.0,54.153265,0.0,English_ConfidentWoman,1.04,-1
+harness,under_the_hood,harness_raw.mp3,55,66,9.020952,0,55.0,64.020952,0.0,English_ConfidentWoman,1.04,-1
+close,under_the_hood,close_raw.mp3,66,70,4.667211,0.667211,65.15,69.817211,-0.85,English_ConfidentWoman,1.04,-1

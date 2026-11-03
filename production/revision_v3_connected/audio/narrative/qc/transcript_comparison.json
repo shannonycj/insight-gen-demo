@@ -1,0 +1,21 @@
+{
+  "source": "all_narration_transcription.json",
+  "api_model": "asr-1.0",
+  "key_name": "MINIMAX_KEY_2",
+  "source_audio_index": "asr_source_index.json",
+  "expected_script": "expected_all_narration.txt",
+  "scope": "All18nativeTTSstemsopening+demo9+underhood8; masterplacementsvarybutrawspeechhashesareunchanged",
+  "normalization": [
+    "case/punctuation/hyphen spacing",
+    "Insight Gen/InsightGen",
+    "C-sixty/C60",
+    "S Q L/SQL"
+  ],
+  "normalized_expected_words": 392,
+  "normalized_recognized_words": 392,
+  "normalized_exact_match": true,
+  "differences": [],
+  "asr_detected_speakers": 1,
+  "manual_listening": "Not performed; automated wording comparison and technical decode only",
+  "auto_regeneration": false
+}

@@ -1,0 +1,35 @@
+Today, we'll see InsightGen investigate a real business question on Blue Orbit. Then we'll go under the hood: how business expertise, connected components, and continuous improvement make it work at Amex.
+
+This is InsightGen, the insight generation agent in Blue Orbit. We start by creating a workspace and enabling Lumi MCP and analytical skills.
+
+We ask for a year-over-year comparison of dollar C-sixty trends for Charge and Lend. Before proceeding, the agent clarifies the methodology, metric, and analytical depth.
+
+It consults the governed knowledge bundle for metric definitions, calculation rules, and source tables, before querying the data and running the analysis.
+
+The report opens with key findings and a like-for-like comparison. Both products show modest improvement. Linked references open business definitions directly in the governed knowledge bundle.
+
+Interactive previews make the monthly patterns easy to inspect, with separate views for Charge and Lend and clear year-over-year comparisons.
+
+The supporting SQL, data extracts, and charts are linked alongside the report, so we can inspect the underlying evidence.
+
+Next, we ask what might explain the second-quarter improvement. InsightGen ranks candidate hypotheses, spelling out their mechanisms, expected signals, and tests, rather than jumping straight to a conclusion.
+
+We ask it to test the top two. The results reject favorable portfolio mix as the explanation and find repayment behavior supportive for Charge, but not Lend.
+
+Finally, InsightGen brings the investigation together: an executive summary, decisive charts, supporting evidence, and recommended next steps.
+
+Now, let's see how we make this work in the Amex business setting.
+
+General-purpose agents bring reasoning and tools. Our differentiator is the enterprise system around them: business-owned knowledge, reusable expert methods, controlled data access, and evidence-driven improvement.
+
+Business teams curate definitions, policies, and context in Enterprise Knowledge Foundation. Their analytical expertise becomes reusable primitives and skills through Skill Foundry.
+
+The C-sixty definition grounds comparison, segmentation, and testing; those primitives compose into a governed skill, with its source links retained.
+
+Teams use InsightGen to apply that knowledge and skill, connect to permitted data, and return findings with evidence.
+
+As the agent runs, the Agent Observability Framework captures its execution trace and quality signals.
+
+Harness Intelligence uses the evidence to diagnose, test, and validate a change. The improved skill returns to Skill Foundry and the next agent run.
+
+Built once. Specialized many times. Improving continuously.

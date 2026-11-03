@@ -1,0 +1,96 @@
+{
+  "all_native_stems_same_locked_voice_speed_pitch": true,
+  "tts_stems": [
+    {
+      "id": "demo_01",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    },
+    {
+      "id": "demo_02",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    },
+    {
+      "id": "demo_03",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    },
+    {
+      "id": "demo_04",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    },
+    {
+      "id": "demo_05",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    },
+    {
+      "id": "demo_06",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    },
+    {
+      "id": "demo_07",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    },
+    {
+      "id": "demo_08",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    },
+    {
+      "id": "demo_09",
+      "format": "mp3",
+      "sample_rate": 44100,
+      "channels": 1,
+      "fixed_voice_and_speed": true,
+      "full_decode": "passed"
+    }
+  ],
+  "master_mp3_decode": "passed",
+  "master_wav_decode": "passed",
+  "levels": {
+    "mean_volume_db": -22.1,
+    "max_volume_db": -3.2
+  },
+  "listening_test": "Not performed; technical decode/settings validation only",
+  "speech_truncated": false,
+  "tempo_or_pitch_postprocessing": false,
+  "timing_overruns": [
+    {
+      "id": "demo_07",
+      "overrun_seconds": 1.2367349999999995
+    },
+    {
+      "id": "demo_09",
+      "overrun_seconds": 2.1834919999999993
+    }
+  ]
+}

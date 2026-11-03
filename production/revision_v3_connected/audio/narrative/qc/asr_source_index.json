@@ -1,0 +1,81 @@
+{
+  "scope": "All18nativeTTSstems inopening,demo,underhoodorder;thisisnotafilmplaybackmaster",
+  "file": "asr_all_generated_stems.mp3",
+  "sha256": "de6d9b6945e23a0045a8411d8965ac415e4a2614ac55f528c0356ad4116e6037",
+  "source_files": [
+    {
+      "path": "narrative/opening_raw.mp3",
+      "sha256": "1a277687926dbf3ab7892b29204c4db490f43e03502e676df913ebeb42f2d906"
+    },
+    {
+      "path": "demo/demo_01.mp3",
+      "sha256": "9f586c154ab09316208071406fcc827486348dc29c9ec05660e3769549d58a3f"
+    },
+    {
+      "path": "demo/demo_02.mp3",
+      "sha256": "964d5d34248bc320d323ed9213367bbbacea3724f7cc0f6f698a20a3e9e23efa"
+    },
+    {
+      "path": "demo/demo_03.mp3",
+      "sha256": "57ce633928808406ff93754ff5d1fe14668bc2b16b9aa0b10ec6ccaef9362133"
+    },
+    {
+      "path": "demo/demo_04.mp3",
+      "sha256": "67292ef80a8b0e5281e9c8ad1d3ccb77630dbcee458e5af5a97d479e1d04ab50"
+    },
+    {
+      "path": "demo/demo_05.mp3",
+      "sha256": "c732152bab8d3fce956bdbb1a33ba7a7bd3fb9e916e477ab2b500628368e2828"
+    },
+    {
+      "path": "demo/demo_06.mp3",
+      "sha256": "d3bc69d5997dd1d709c83e68fe1dbab73c846c5c3ae98942fc4ae8b79f865181"
+    },
+    {
+      "path": "demo/demo_07.mp3",
+      "sha256": "6c6a3510eb35fc12f4fccf60bdd9a65b3d03553d0ae3aa9582d00a1605081568"
+    },
+    {
+      "path": "demo/demo_08.mp3",
+      "sha256": "462eeb56b6792436f57ebd9ace4acb6d56b0a7634fd5d0ff283f61f60931c7dd"
+    },
+    {
+      "path": "demo/demo_09.mp3",
+      "sha256": "90c3cd3385545078be334ad0cc96d99556a26ca06c0f57fdaf7f2f2b956c3f12"
+    },
+    {
+      "path": "narrative/bridge_raw.mp3",
+      "sha256": "e2d12a067f6924d9381b031a39c97b440ddae471f29942240958f32eaaf820a7"
+    },
+    {
+      "path": "narrative/differentiator_raw.mp3",
+      "sha256": "c256862b5ad6b4e242c972643e35c0264f953b2909272a32cd8cd34124fd59ea"
+    },
+    {
+      "path": "narrative/business_curation_raw.mp3",
+      "sha256": "a5114f334e6ca44f0842a4561d54ce4fae66d0adf641b9aec39700be75513da2"
+    },
+    {
+      "path": "narrative/grounded_skill_raw.mp3",
+      "sha256": "2e847f20893ad62934328e060772e5b746b1505b69e2931b0ce77c40b1b4f834"
+    },
+    {
+      "path": "narrative/agent_use_raw.mp3",
+      "sha256": "04465b40a565f5c7c6af64c24ee51fc204986d41b727d98846a0e10e21d81923"
+    },
+    {
+      "path": "narrative/aof_raw.mp3",
+      "sha256": "2283d6dbc41ed36eb5d310d64f4db28d05305ad14cdcc9f478cfd5b879d3999c"
+    },
+    {
+      "path": "narrative/harness_raw.mp3",
+      "sha256": "0a7df839af7cb8b754e92baffcd216bf8b92ba8b9c842adec072a61feb9fd5c8"
+    },
+    {
+      "path": "narrative/close_raw.mp3",
+      "sha256": "f12dd66ca40c84e3404c40833180fefdefbb347d0581cfe6870093a7d4dfaa8b"
+    }
+  ],
+  "duration_seconds": 171.177234,
+  "voice_speed": 1.04
+}

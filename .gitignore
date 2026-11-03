@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local handoff archive and assembled owner recording/output
+.handoff/
+.env.*
+media/02_recording.mp4
+production/revision_v3_connected/*_full_narrated.mp4
+production/revision_v3_connected/*.assembly.json

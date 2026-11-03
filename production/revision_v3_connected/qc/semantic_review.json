@@ -1,0 +1,81 @@
+{
+  "review_type": "Model visual review of rendered frames and source contact sheets; separate from automated metadata checks",
+  "status": "PASS",
+  "underhood_status": "PASS",
+  "opening_status": "PASS: revised final MP4 at 11.0s shows both agenda items clearly against the lower navy backing",
+  "opening_reviewed_export_sha256": "eaeaeaa8b02a9ed15f5cd4c53f211a73c0c126b5f9c0d894862f0cb356b5b95f",
+  "criteria": [
+    {
+      "criterion": "Stress the enterprise differentiator",
+      "status": "PASS",
+      "visible_evidence": [
+        "At 11.0s, distinct lanes identify reasoning and tools, then the enterprise system: business-owned knowledge, reusable methods, controlled access and evidence-driven learning.",
+        "The subsequent definition, method, permitted-data and evidence actions demonstrate these foundations rather than relying on the headline alone."
+      ],
+      "claims_scope": "No named competitor, comparative performance number or assertion that general agents cannot integrate enterprise context."
+    },
+    {
+      "criterion": "Show an integrated process involving the business team",
+      "status": "PASS",
+      "visible_evidence": [
+        "At 20.0s, a business-team cursor selects the bookmarked definition; at 22.5s it reviews policy/context; at 25.7s the contribution is published with a review check.",
+        "The same three-person business role appears at 40.5-41.3s to ask InsightGen a question while the composed skill enters its workspace.",
+        "At 64.8-66.5s, the validated update returns to the shared skill library and a receiving agent run reacts."
+      ]
+    },
+    {
+      "criterion": "Show how the components connect",
+      "status": "PASS",
+      "visible_evidence": [
+        "The selected blue bookmarked definition physically leaves the knowledge graph and docks into the inputs above analytical primitives at 26-32s.",
+        "The same Compare/Segment/Test folder copy moves from the skill collection into the selected InsightGen report at 39.5-41.3s.",
+        "The agent run emits an ordered execution trace at approximately 44s; the four-stage trace is visible in the new connector's native contact sheet.",
+        "The same amber query-method review glyph exits the AOF evidence branch at 53.5s and enters Harness at 56s.",
+        "A candidate method change passes the validation gate at 62.2s before the updated folder lands in Skill Foundry at 64.3s and a copy enters and activates the next agent run at 66.2s."
+      ],
+      "illustration_scope": "The amber branch is an illustrative query-method quality review, not an asserted defect in the owner-held recording."
+    },
+    {
+      "criterion": "Reuse v2 elements without repeating the old sections",
+      "status": "PASS",
+      "visible_evidence": [
+        "Distinct v2 excerpts provide the question, enterprise foundations, knowledge graph, skill composition, trace and validation contexts.",
+        "Two new action connectors and locally composited artifact copies preserve object identity between those contexts.",
+        "The ending continues the source's next interval rather than replaying its beginning. The technical source-range check independently rejects overlapping reuse."
+      ]
+    }
+  ],
+  "rendered_stills_reviewed": [
+    "frames/under_011.0.png",
+    "frames/under_020.0.png",
+    "frames/under_022.5.png",
+    "frames/under_025.7.png",
+    "frames/under_029.0.png",
+    "frames/under_040.5.png",
+    "frames/under_041.3.png",
+    "frames/under_044.0.png",
+    "frames/under_053.5.png",
+    "frames/under_054.1.png",
+    "frames/under_056.0.png",
+    "frames/under_059.0.png",
+    "frames/under_062.5.png",
+    "frames/under_064.8.png",
+    "frames/under_066.5.png"
+  ],
+  "native_connector_contact_sheets_reviewed": [
+    "frames/knowledge_to_method_review.jpg",
+    "frames/skill_to_run_to_trace_review.jpg"
+  ],
+  "final_mp4_frames_independently_extracted_and_reviewed": [
+    "qc/final_frames/opening_11.0.png",
+    "qc/final_frames/40.5.png",
+    "qc/final_frames/64.8.png",
+    "qc/final_frames/66.5.png"
+  ],
+  "limits": [
+    "Sampled visual review rather than a claim of watching every frame in real time.",
+    "No manual listening performed by this reviewer; technical audio identity and transcript checks are reported separately.",
+    "The owner's revised recording is unavailable, so actual demo alignment, complete UI framing and whole-film joins remain unverified.",
+    "Final owner visual approval is not implied by this internal acceptance review."
+  ]
+}

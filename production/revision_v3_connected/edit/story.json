@@ -1,0 +1,275 @@
+{
+  "version": "3-connected",
+  "purpose": "Retell the v3 business process using distinct v2 elements and explicit output-to-input handoffs; no repeating glass-report world",
+  "key_name": "MINIMAX_KEY_2",
+  "voice_approved": true,
+  "approved_voice_source": "../../voice_demo/insightgen_polished_american_demo.mp3",
+  "voice": {
+    "voice_id": "English_ConfidentWoman",
+    "model": "speech-2.8-hd",
+    "speed": 1.04,
+    "pitch": -1,
+    "volume": 1,
+    "sample_rate": 44100,
+    "bitrate": 128000,
+    "channels": 1
+  },
+  "audio_policy": "Identical voice and synthesis speed throughout. No speech tempo/pitch retiming, truncation, old narration or background music.",
+  "opening": {
+    "start": 0,
+    "end": 14,
+    "narration": "Today, we'll see InsightGen investigate a real business question on Blue Orbit. Then we'll go under the hood: how business expertise, connected components, and continuous improvement make it work at Amex.",
+    "visual": "Use the v2 portfolio-question hook once, with a soft entrance and two-part agenda. No repeated platform establishing shot."
+  },
+  "recording": {
+    "owner_held": true,
+    "reference_duration": 99,
+    "source_script": "../../../insightGen_demo_voiceover_v2.txt",
+    "reference_boundaries": [
+      0,
+      12,
+      23,
+      33,
+      47,
+      58,
+      67,
+      80,
+      92,
+      99
+    ],
+    "policy": "Retain unchanged narration and approved speed. Preserve all words; report any reference-window overruns for owner alignment. Fit/pad the complete recording; no UI cropping."
+  },
+  "under_the_hood": {
+    "duration": 70,
+    "cues": [
+      {
+        "id": "bridge",
+        "start": 0,
+        "end": 6,
+        "narration": "Now, let's see how we make this work in the Amex business setting.",
+        "meaning": "Connect the demonstrated investigation to its shared enterprise foundation."
+      },
+      {
+        "id": "differentiator",
+        "start": 6,
+        "end": 18,
+        "narration": "General-purpose agents bring reasoning and tools. Our differentiator is the enterprise system around them: business-owned knowledge, reusable expert methods, controlled data access, and evidence-driven improvement.",
+        "meaning": "The integrated enterprise system is the differentiator; do not name competitors or claim general agents cannot integrate context."
+      },
+      {
+        "id": "business_curation",
+        "start": 18,
+        "end": 30,
+        "narration": "Business teams curate definitions, policies, and context in Enterprise Knowledge Foundation. Their analytical expertise becomes reusable primitives and skills through Skill Foundry.",
+        "meaning": "Show actual curation actions and business ownership, then source-linked knowledge flows into methods."
+      },
+      {
+        "id": "grounded_skill",
+        "start": 30,
+        "end": 40,
+        "narration": "The C-sixty definition grounds comparison, segmentation, and testing; those primitives compose into a governed skill, with its source links retained.",
+        "meaning": "A particular definition and source tether ground the same primitives that become the skill."
+      },
+      {
+        "id": "agent_use",
+        "start": 40,
+        "end": 48,
+        "narration": "Teams use InsightGen to apply that knowledge and skill, connect to permitted data, and return findings with evidence.",
+        "meaning": "The same composed skill enters an agent run; business teams also use the capability they curate."
+      },
+      {
+        "id": "aof",
+        "start": 48,
+        "end": 55,
+        "narration": "As the agent runs, the Agent Observability Framework captures its execution trace and quality signals.",
+        "meaning": "The run emits its own trace and quality evidence; do not introduce an unrelated monitoring diagram."
+      },
+      {
+        "id": "harness",
+        "start": 55,
+        "end": 66,
+        "narration": "Harness Intelligence uses the evidence to diagnose, test, and validate a change. The improved skill returns to Skill Foundry and the next agent run.",
+        "meaning": "The same amber evidence branch drives a candidate skill change; validation precedes release and return to the same capability."
+      },
+      {
+        "id": "close",
+        "start": 66,
+        "end": 70,
+        "narration": "Built once. Specialized many times. Improving continuously.",
+        "meaning": "Close the integrated loop and show reuse across the platform."
+      }
+    ]
+  },
+  "visual_cutlist": [
+    {
+      "id": "foundation",
+      "start": 0,
+      "end": 6,
+      "source": "v2/film/clean/shot3.mp4",
+      "source_range": [
+        2,
+        8
+      ],
+      "action": "The central InsightGen workspace sits on the shared Blue Orbit base. Establish the platform once."
+    },
+    {
+      "id": "enterprise_difference",
+      "start": 6,
+      "end": 18,
+      "source": "v2/film/clean/shot2.mp4",
+      "source_range": [
+        1,
+        13
+      ],
+      "action": "Compare general reasoning/tool capability with governed knowledge, expert methods, protected data and source-linked findings."
+    },
+    {
+      "id": "business_review_and_knowledge",
+      "start": 18,
+      "end": 26,
+      "source": "v2/film/clean/shot4.mp4",
+      "source_range": [
+        0,
+        6
+      ],
+      "action": "Business-team review selects a bookmarked definition and policy context, validates the contribution, and publishes linked knowledge. Role and review-state overlays must show actions, not only a component heading."
+    },
+    {
+      "id": "knowledge_to_method",
+      "start": 26,
+      "end": 32,
+      "source": "new/knowledge_to_method.mp4",
+      "action": "The selected source-linked definition leaves the EKF graph and becomes the knowledge input grounding comparison, segmentation and test primitives. End on the v2 Skill Foundry composition."
+    },
+    {
+      "id": "compose_the_skill",
+      "start": 32,
+      "end": 39,
+      "source": "v2/film_refined/clean/shot5.mp4",
+      "source_range": [
+        4,
+        11
+      ],
+      "action": "The knowledge-grounded primitives assemble into the same validated reusable folder."
+    },
+    {
+      "id": "skill_to_run_to_trace",
+      "start": 39,
+      "end": 47,
+      "source": "new/skill_to_run_to_trace.mp4",
+      "action": "That composed folder enters InsightGen. The user question runs through source lookup, controlled data, method and findings; those exact steps leave the AOF trace. End on the v2 trace layout."
+    },
+    {
+      "id": "observe_the_run",
+      "start": 47,
+      "end": 54,
+      "source": "v2/film_refined/clean/shot6.mp4",
+      "source_range": [
+        1,
+        8
+      ],
+      "action": "Continue the same trace; quality checks select one amber branch for diagnosis. Preserve the evidence marker into the next shot."
+    },
+    {
+      "id": "diagnose_test_validate_return",
+      "start": 54,
+      "end": 65,
+      "source": "v2/film_refined/clean/shot7.mp4",
+      "source_range": [
+        0,
+        11
+      ],
+      "action": "The carried amber evidence enters Harness. A candidate change passes tests and validation. A locally composited updated instance of the same skill returns to its library and agent workflow, instead of an unrelated glow sweep."
+    },
+    {
+      "id": "shared_capability_close",
+      "start": 65,
+      "end": 70,
+      "source": "v2/film_refined/clean/shot7.mp4",
+      "source_range": [
+        11,
+        15
+      ],
+      "action": "Retain the final platform-wide connected view. Knowledge feedback remains subject to business curation; validated skills and workflows are reused."
+    }
+  ],
+  "acceptance": {
+    "differentiator": "A viewer can explain the value of the integrated enterprise system: business ownership, governed knowledge, reusable methods, controlled access, evidence and validated learning.",
+    "business_process": "Business teams visibly curate and publish expertise, then use agents; execution evidence informs improvement and returns to the shared capability.",
+    "component_connections": "The same definition grounds primitives; the same skill enters a run; that run emits the AOF trace; its evidence enters Harness; the validated update returns to the capability.",
+    "non_repetition": "Each source excerpt is used once. Distinct operations use distinct v2 visuals. No recurring glass-report establishing composition between sections."
+  },
+  "audio_actuals": {
+    "voice_lock": "../audio/voice_lock.json",
+    "synthesis_speed": 1.04,
+    "speech_retimed": false,
+    "cue_placements": [
+      {
+        "id": "opening",
+        "section": "opening",
+        "actual_start": 0.0,
+        "actual_end": 13.191837,
+        "shift_from_planned_start": 0.0
+      },
+      {
+        "id": "bridge",
+        "section": "under_the_hood",
+        "actual_start": 0.0,
+        "actual_end": 3.726803,
+        "shift_from_planned_start": 0.0
+      },
+      {
+        "id": "differentiator",
+        "section": "under_the_hood",
+        "actual_start": 6.0,
+        "actual_end": 19.322449,
+        "shift_from_planned_start": 0.0
+      },
+      {
+        "id": "business_curation",
+        "section": "under_the_hood",
+        "actual_start": 19.442449,
+        "actual_end": 31.168526,
+        "shift_from_planned_start": 1.442449
+      },
+      {
+        "id": "grounded_skill",
+        "section": "under_the_hood",
+        "actual_start": 31.288526,
+        "actual_end": 39.856689,
+        "shift_from_planned_start": 1.288526
+      },
+      {
+        "id": "agent_use",
+        "section": "under_the_hood",
+        "actual_start": 40.0,
+        "actual_end": 47.012426,
+        "shift_from_planned_start": 0.0
+      },
+      {
+        "id": "aof",
+        "section": "under_the_hood",
+        "actual_start": 48.0,
+        "actual_end": 54.153265,
+        "shift_from_planned_start": 0.0
+      },
+      {
+        "id": "harness",
+        "section": "under_the_hood",
+        "actual_start": 55.0,
+        "actual_end": 64.020952,
+        "shift_from_planned_start": 0.0
+      },
+      {
+        "id": "close",
+        "section": "under_the_hood",
+        "actual_start": 65.15,
+        "actual_end": 69.817211,
+        "shift_from_planned_start": -0.85
+      }
+    ],
+    "opening_master_seconds": 14.0,
+    "underhood_master_seconds": 70.0,
+    "note": "Plannedvisualcutlistandnarrationwindowsarepreserved; closingactualstart65.15approvedtoretainfullspeechin70s."
+  }
+}

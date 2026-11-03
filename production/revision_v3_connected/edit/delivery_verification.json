@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "file": "insightgen_v3_connected_opening_narrated.mp4",
+      "video_duration_seconds": 14.0,
+      "frames": 336,
+      "resolution": [
+        1280,
+        720
+      ],
+      "frame_rate": "24/1",
+      "audio_streams": 1,
+      "full_decode": "passed",
+      "bytes": 2453049
+    },
+    {
+      "file": "insightgen_v3_connected_opening_silent.mp4",
+      "video_duration_seconds": 14.0,
+      "frames": 336,
+      "resolution": [
+        1280,
+        720
+      ],
+      "frame_rate": "24/1",
+      "audio_streams": 0,
+      "full_decode": "passed",
+      "bytes": 2197984
+    },
+    {
+      "file": "insightgen_v3_connected_underthehood_narrated.mp4",
+      "video_duration_seconds": 70.0,
+      "frames": 1680,
+      "resolution": [
+        1280,
+        720
+      ],
+      "frame_rate": "24/1",
+      "audio_streams": 1,
+      "full_decode": "passed",
+      "bytes": 17560391
+    },
+    {
+      "file": "insightgen_v3_connected_underthehood_silent.mp4",
+      "video_duration_seconds": 70.0,
+      "frames": 1680,
+      "resolution": [
+        1280,
+        720
+      ],
+      "frame_rate": "24/1",
+      "audio_streams": 0,
+      "full_decode": "passed",
+      "bytes": 16296541
+    }
+  ],
+  "approved_audio_sources": [
+    {
+      "file": "audio/narrative/insightgen_opening_approved_voice.wav",
+      "sha256": "e87f4377ef4b3eb8b397a37871a05d2b5601e3c2b26a24b28b30c3f0107bc4c9",
+      "policy": "Mapped unchanged into AAC delivery encoding. No speech speed, pitch, word trimming or previous soundtrack reuse."
+    },
+    {
+      "file": "audio/narrative/insightgen_underthehood_approved_voice.wav",
+      "sha256": "2b89a0b17898f588486ddaa37f4ebd8bac6acffc3ccbfd69e188fb0973a65ed8",
+      "policy": "Mapped unchanged into AAC delivery encoding. No speech speed, pitch, word trimming or previous soundtrack reuse."
+    }
+  ],
+  "typography_bounds": "passed",
+  "semantic_review_frames": 19,
+  "recording": "Unavailable: actual UI framing, internal recording synchronization and final assembly remain unverified. The unchanged fixed-speed demo voice master lasts 101.283356s versus the 99s reference slot.",
+  "subjective_listening": "Not established by these technical checks; review delivery, pronunciation and sentence endings before sharing."
+}

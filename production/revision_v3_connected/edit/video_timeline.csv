@@ -1,0 +1,10 @@
+id,start,end,ready,file
+foundation,0,6,True,clean/foundation.mp4
+enterprise_difference,6,18,True,clean/enterprise_difference.mp4
+business_review_and_knowledge,18,26,True,clean/business_review_and_knowledge.mp4
+knowledge_to_method,26,32,True,clean/knowledge_to_method.mp4
+compose_the_skill,32,39,True,clean/compose_the_skill.mp4
+skill_to_run_to_trace,39,47,True,clean/skill_to_run_to_trace.mp4
+observe_the_run,47,54,True,clean/observe_the_run.mp4
+diagnose_test_validate_return,54,65,True,clean/diagnose_test_validate_return.mp4
+shared_capability_close,65,70,True,clean/shared_capability_close.mp4

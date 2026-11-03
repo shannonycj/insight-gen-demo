@@ -1,0 +1,1 @@
+Next, we ask what might explain the second-quarter improvement. InsightGen ranks candidate hypotheses, spelling out their mechanisms, expected signals, and tests, rather than jumping straight to a conclusion.

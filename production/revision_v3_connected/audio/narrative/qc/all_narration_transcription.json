@@ -1,0 +1,2787 @@
+{
+  "text": "Today, we'll see Insight Gen investigate a real business question on Blue Orbit. Then we'll go under the hood, how business expertise, connected components, and continuous improvement make it work at Amex. This is Insight Gen, the insight generation agent in Blue Orbit. We start by creating a workspace and enabling Lumi MCP and analytical skills. We ask for a year- over- year comparison of Dollar C 60 trends for Charge and Lend. Before proceeding, the agent clarifies the methodology, metric, and analytical depth. It consults the governed knowledge bundle for metric definitions, calculation rules, and source tables before querying the data and running the analysis. The report opens with key findings and a like- for- like comparison. Both products show modest improvement. Linked references open business definitions directly in the governed knowledge bundle. Interactive previews make the monthly patterns easy to inspect, with separate views for Charge and Lend and clear year- over- year comparisons. The supporting SQL, data extracts, and charts are linked alongside the report, so we can inspect the underlying evidence. Next, we ask what might explain the second quarter improvement. InsightGen ranks candidate hypotheses, spelling out their mechanisms, expected signals, and tests, rather than jumping straight to a conclusion. We ask it to test the top two. The results reject favorable portfolio mix as the explanation and find repayment behavior supportive for Charge but not Lend. Finally, InsightGen brings the investigation together: an executive summary, decisive charts, supporting evidence, and recommended next steps. Now, let's see how we make this work in the Amex business setting. General purpose agents bring reasoning and tools. Our differentiator is the enterprise system around them: business owned knowledge, reusable expert methods, controlled data access, and evidence driven improvement. Business teams curate definitions, policies, and context in Enterprise Knowledge Foundation. Their analytical expertise becomes reusable primitives and skills through Skill Foundry. The C 60 definition grounds comparison, segmentation, and testing. Those primitives compose into a governed skill with its source links retained. Teams use Insight Gen to apply that knowledge and skill, connect to permitted data, and return findings with evidence. As the agent runs, the agent observability framework captures its execution trace and quality signals. Harness Intelligence uses the evidence to diagnose, test, and validate a change. The improved skill returns to Skill Foundry and the next agent run. Built once, specialized many times, improving continuously.",
+  "duration": 171.206531,
+  "n_speakers": 1,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.18,
+      "end": 0.64,
+      "speaker": "S1",
+      "text": "Today, "
+    },
+    {
+      "id": 1,
+      "start": 0.84,
+      "end": 1,
+      "speaker": "S1",
+      "text": "we'll "
+    },
+    {
+      "id": 2,
+      "start": 1,
+      "end": 1.26,
+      "speaker": "S1",
+      "text": "see "
+    },
+    {
+      "id": 3,
+      "start": 1.3,
+      "end": 1.8,
+      "speaker": "S1",
+      "text": "Insight "
+    },
+    {
+      "id": 4,
+      "start": 1.82,
+      "end": 2.22,
+      "speaker": "S1",
+      "text": "Gen "
+    },
+    {
+      "id": 5,
+      "start": 2.3,
+      "end": 2.96,
+      "speaker": "S1",
+      "text": "investigate "
+    },
+    {
+      "id": 6,
+      "start": 2.96,
+      "end": 3.02,
+      "speaker": "S1",
+      "text": "a "
+    },
+    {
+      "id": 7,
+      "start": 3.04,
+      "end": 3.32,
+      "speaker": "S1",
+      "text": "real "
+    },
+    {
+      "id": 8,
+      "start": 3.32,
+      "end": 3.74,
+      "speaker": "S1",
+      "text": "business "
+    },
+    {
+      "id": 9,
+      "start": 3.74,
+      "end": 4.18,
+      "speaker": "S1",
+      "text": "question "
+    },
+    {
+      "id": 10,
+      "start": 4.18,
+      "end": 4.32,
+      "speaker": "S1",
+      "text": "on "
+    },
+    {
+      "id": 11,
+      "start": 4.32,
+      "end": 4.54,
+      "speaker": "S1",
+      "text": "Blue "
+    },
+    {
+      "id": 12,
+      "start": 4.56,
+      "end": 4.98,
+      "speaker": "S1",
+      "text": "Orbit. "
+    },
+    {
+      "id": 13,
+      "start": 5.34,
+      "end": 5.58,
+      "speaker": "S1",
+      "text": "Then "
+    },
+    {
+      "id": 14,
+      "start": 5.58,
+      "end": 5.72,
+      "speaker": "S1",
+      "text": "we'll "
+    },
+    {
+      "id": 15,
+      "start": 5.72,
+      "end": 5.94,
+      "speaker": "S1",
+      "text": "go "
+    },
+    {
+      "id": 16,
+      "start": 5.94,
+      "end": 6.18,
+      "speaker": "S1",
+      "text": "under "
+    },
+    {
+      "id": 17,
+      "start": 6.18,
+      "end": 6.3,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 18,
+      "start": 6.3,
+      "end": 6.64,
+      "speaker": "S1",
+      "text": "hood, "
+    },
+    {
+      "id": 19,
+      "start": 7.04,
+      "end": 7.24,
+      "speaker": "S1",
+      "text": "how "
+    },
+    {
+      "id": 20,
+      "start": 7.26,
+      "end": 7.7,
+      "speaker": "S1",
+      "text": "business "
+    },
+    {
+      "id": 21,
+      "start": 7.72,
+      "end": 8.44,
+      "speaker": "S1",
+      "text": "expertise, "
+    },
+    {
+      "id": 22,
+      "start": 8.62,
+      "end": 9.1,
+      "speaker": "S1",
+      "text": "connected "
+    },
+    {
+      "id": 23,
+      "start": 9.1,
+      "end": 9.76,
+      "speaker": "S1",
+      "text": "components, "
+    },
+    {
+      "id": 24,
+      "start": 10,
+      "end": 10.16,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 25,
+      "start": 10.16,
+      "end": 10.82,
+      "speaker": "S1",
+      "text": "continuous "
+    },
+    {
+      "id": 26,
+      "start": 10.82,
+      "end": 11.5,
+      "speaker": "S1",
+      "text": "improvement "
+    },
+    {
+      "id": 27,
+      "start": 11.7,
+      "end": 11.94,
+      "speaker": "S1",
+      "text": "make "
+    },
+    {
+      "id": 28,
+      "start": 11.94,
+      "end": 12.02,
+      "speaker": "S1",
+      "text": "it "
+    },
+    {
+      "id": 29,
+      "start": 12.02,
+      "end": 12.28,
+      "speaker": "S1",
+      "text": "work "
+    },
+    {
+      "id": 30,
+      "start": 12.28,
+      "end": 12.4,
+      "speaker": "S1",
+      "text": "at "
+    },
+    {
+      "id": 31,
+      "start": 12.4,
+      "end": 12.96,
+      "speaker": "S1",
+      "text": "Amex. "
+    },
+    {
+      "id": 32,
+      "start": 13.56,
+      "end": 13.8,
+      "speaker": "S1",
+      "text": "This "
+    },
+    {
+      "id": 33,
+      "start": 13.8,
+      "end": 13.96,
+      "speaker": "S1",
+      "text": "is "
+    },
+    {
+      "id": 34,
+      "start": 13.98,
+      "end": 14.44,
+      "speaker": "S1",
+      "text": "Insight "
+    },
+    {
+      "id": 35,
+      "start": 14.46,
+      "end": 14.86,
+      "speaker": "S1",
+      "text": "Gen, "
+    },
+    {
+      "id": 36,
+      "start": 15.16,
+      "end": 15.3,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 37,
+      "start": 15.3,
+      "end": 15.76,
+      "speaker": "S1",
+      "text": "insight "
+    },
+    {
+      "id": 38,
+      "start": 15.78,
+      "end": 16.34,
+      "speaker": "S1",
+      "text": "generation "
+    },
+    {
+      "id": 39,
+      "start": 16.34,
+      "end": 16.76,
+      "speaker": "S1",
+      "text": "agent "
+    },
+    {
+      "id": 40,
+      "start": 16.78,
+      "end": 16.92,
+      "speaker": "S1",
+      "text": "in "
+    },
+    {
+      "id": 41,
+      "start": 16.92,
+      "end": 17.16,
+      "speaker": "S1",
+      "text": "Blue "
+    },
+    {
+      "id": 42,
+      "start": 17.18,
+      "end": 17.62,
+      "speaker": "S1",
+      "text": "Orbit. "
+    },
+    {
+      "id": 43,
+      "start": 17.96,
+      "end": 18.1,
+      "speaker": "S1",
+      "text": "We "
+    },
+    {
+      "id": 44,
+      "start": 18.1,
+      "end": 18.46,
+      "speaker": "S1",
+      "text": "start "
+    },
+    {
+      "id": 45,
+      "start": 18.46,
+      "end": 18.6,
+      "speaker": "S1",
+      "text": "by "
+    },
+    {
+      "id": 46,
+      "start": 18.6,
+      "end": 19.04,
+      "speaker": "S1",
+      "text": "creating "
+    },
+    {
+      "id": 47,
+      "start": 19.04,
+      "end": 19.1,
+      "speaker": "S1",
+      "text": "a "
+    },
+    {
+      "id": 48,
+      "start": 19.1,
+      "end": 19.82,
+      "speaker": "S1",
+      "text": "workspace "
+    },
+    {
+      "id": 49,
+      "start": 20.04,
+      "end": 20.2,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 50,
+      "start": 20.2,
+      "end": 20.72,
+      "speaker": "S1",
+      "text": "enabling "
+    },
+    {
+      "id": 51,
+      "start": 20.72,
+      "end": 21.06,
+      "speaker": "S1",
+      "text": "Lumi "
+    },
+    {
+      "id": 52,
+      "start": 21.1,
+      "end": 21.74,
+      "speaker": "S1",
+      "text": "MCP "
+    },
+    {
+      "id": 53,
+      "start": 21.76,
+      "end": 21.92,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 54,
+      "start": 21.94,
+      "end": 22.48,
+      "speaker": "S1",
+      "text": "analytical "
+    },
+    {
+      "id": 55,
+      "start": 22.48,
+      "end": 23.02,
+      "speaker": "S1",
+      "text": "skills. "
+    },
+    {
+      "id": 56,
+      "start": 23.6,
+      "end": 23.8,
+      "speaker": "S1",
+      "text": "We "
+    },
+    {
+      "id": 57,
+      "start": 23.8,
+      "end": 24.06,
+      "speaker": "S1",
+      "text": "ask "
+    },
+    {
+      "id": 58,
+      "start": 24.06,
+      "end": 24.22,
+      "speaker": "S1",
+      "text": "for "
+    },
+    {
+      "id": 59,
+      "start": 24.22,
+      "end": 24.28,
+      "speaker": "S1",
+      "text": "a "
+    },
+    {
+      "id": 60,
+      "start": 24.28,
+      "end": 24.56,
+      "speaker": "S1",
+      "text": "year-"
+    },
+    {
+      "id": 61,
+      "start": 24.56,
+      "end": 24.8,
+      "speaker": "S1",
+      "text": "over-"
+    },
+    {
+      "id": 62,
+      "start": 24.8,
+      "end": 25,
+      "speaker": "S1",
+      "text": "year "
+    },
+    {
+      "id": 63,
+      "start": 25.02,
+      "end": 25.68,
+      "speaker": "S1",
+      "text": "comparison "
+    },
+    {
+      "id": 64,
+      "start": 25.68,
+      "end": 25.78,
+      "speaker": "S1",
+      "text": "of "
+    },
+    {
+      "id": 65,
+      "start": 25.78,
+      "end": 26.1,
+      "speaker": "S1",
+      "text": "Dollar "
+    },
+    {
+      "id": 66,
+      "start": 26.1,
+      "end": 26.32,
+      "speaker": "S1",
+      "text": "C"
+    },
+    {
+      "id": 67,
+      "start": 26.32,
+      "end": 26.72,
+      "speaker": "S1",
+      "text": "60 "
+    },
+    {
+      "id": 68,
+      "start": 26.74,
+      "end": 27.08,
+      "speaker": "S1",
+      "text": "trends "
+    },
+    {
+      "id": 69,
+      "start": 27.08,
+      "end": 27.22,
+      "speaker": "S1",
+      "text": "for "
+    },
+    {
+      "id": 70,
+      "start": 27.22,
+      "end": 27.58,
+      "speaker": "S1",
+      "text": "Charge "
+    },
+    {
+      "id": 71,
+      "start": 27.58,
+      "end": 27.68,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 72,
+      "start": 27.68,
+      "end": 28.06,
+      "speaker": "S1",
+      "text": "Lend. "
+    },
+    {
+      "id": 73,
+      "start": 28.38,
+      "end": 28.72,
+      "speaker": "S1",
+      "text": "Before "
+    },
+    {
+      "id": 74,
+      "start": 28.74,
+      "end": 29.28,
+      "speaker": "S1",
+      "text": "proceeding, "
+    },
+    {
+      "id": 75,
+      "start": 29.54,
+      "end": 29.7,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 76,
+      "start": 29.7,
+      "end": 29.96,
+      "speaker": "S1",
+      "text": "agent "
+    },
+    {
+      "id": 77,
+      "start": 29.98,
+      "end": 30.62,
+      "speaker": "S1",
+      "text": "clarifies "
+    },
+    {
+      "id": 78,
+      "start": 30.62,
+      "end": 30.72,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 79,
+      "start": 30.72,
+      "end": 31.5,
+      "speaker": "S1",
+      "text": "methodology, "
+    },
+    {
+      "id": 80,
+      "start": 31.7,
+      "end": 32.22,
+      "speaker": "S1",
+      "text": "metric, "
+    },
+    {
+      "id": 81,
+      "start": 32.4,
+      "end": 32.58,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 82,
+      "start": 32.58,
+      "end": 33.12,
+      "speaker": "S1",
+      "text": "analytical "
+    },
+    {
+      "id": 83,
+      "start": 33.12,
+      "end": 33.56,
+      "speaker": "S1",
+      "text": "depth. "
+    },
+    {
+      "id": 84,
+      "start": 34.14,
+      "end": 34.24,
+      "speaker": "S1",
+      "text": "It "
+    },
+    {
+      "id": 85,
+      "start": 34.24,
+      "end": 34.84,
+      "speaker": "S1",
+      "text": "consults "
+    },
+    {
+      "id": 86,
+      "start": 34.84,
+      "end": 34.96,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 87,
+      "start": 34.96,
+      "end": 35.34,
+      "speaker": "S1",
+      "text": "governed "
+    },
+    {
+      "id": 88,
+      "start": 35.34,
+      "end": 35.78,
+      "speaker": "S1",
+      "text": "knowledge "
+    },
+    {
+      "id": 89,
+      "start": 35.78,
+      "end": 36.12,
+      "speaker": "S1",
+      "text": "bundle "
+    },
+    {
+      "id": 90,
+      "start": 36.12,
+      "end": 36.28,
+      "speaker": "S1",
+      "text": "for "
+    },
+    {
+      "id": 91,
+      "start": 36.28,
+      "end": 36.66,
+      "speaker": "S1",
+      "text": "metric "
+    },
+    {
+      "id": 92,
+      "start": 36.66,
+      "end": 37.46,
+      "speaker": "S1",
+      "text": "definitions, "
+    },
+    {
+      "id": 93,
+      "start": 37.72,
+      "end": 38.46,
+      "speaker": "S1",
+      "text": "calculation "
+    },
+    {
+      "id": 94,
+      "start": 38.48,
+      "end": 38.88,
+      "speaker": "S1",
+      "text": "rules, "
+    },
+    {
+      "id": 95,
+      "start": 39.14,
+      "end": 39.3,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 96,
+      "start": 39.3,
+      "end": 39.64,
+      "speaker": "S1",
+      "text": "source "
+    },
+    {
+      "id": 97,
+      "start": 39.66,
+      "end": 40.14,
+      "speaker": "S1",
+      "text": "tables "
+    },
+    {
+      "id": 98,
+      "start": 40.44,
+      "end": 40.78,
+      "speaker": "S1",
+      "text": "before "
+    },
+    {
+      "id": 99,
+      "start": 40.8,
+      "end": 41.3,
+      "speaker": "S1",
+      "text": "querying "
+    },
+    {
+      "id": 100,
+      "start": 41.3,
+      "end": 41.4,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 101,
+      "start": 41.4,
+      "end": 41.76,
+      "speaker": "S1",
+      "text": "data "
+    },
+    {
+      "id": 102,
+      "start": 42.04,
+      "end": 42.2,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 103,
+      "start": 42.22,
+      "end": 42.5,
+      "speaker": "S1",
+      "text": "running "
+    },
+    {
+      "id": 104,
+      "start": 42.5,
+      "end": 42.64,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 105,
+      "start": 42.64,
+      "end": 43.4,
+      "speaker": "S1",
+      "text": "analysis. "
+    },
+    {
+      "id": 106,
+      "start": 43.92,
+      "end": 44.06,
+      "speaker": "S1",
+      "text": "The "
+    },
+    {
+      "id": 107,
+      "start": 44.06,
+      "end": 44.44,
+      "speaker": "S1",
+      "text": "report "
+    },
+    {
+      "id": 108,
+      "start": 44.46,
+      "end": 44.82,
+      "speaker": "S1",
+      "text": "opens "
+    },
+    {
+      "id": 109,
+      "start": 44.82,
+      "end": 45,
+      "speaker": "S1",
+      "text": "with "
+    },
+    {
+      "id": 110,
+      "start": 45,
+      "end": 45.22,
+      "speaker": "S1",
+      "text": "key "
+    },
+    {
+      "id": 111,
+      "start": 45.22,
+      "end": 45.86,
+      "speaker": "S1",
+      "text": "findings "
+    },
+    {
+      "id": 112,
+      "start": 45.88,
+      "end": 46,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 113,
+      "start": 46,
+      "end": 46.06,
+      "speaker": "S1",
+      "text": "a "
+    },
+    {
+      "id": 114,
+      "start": 46.06,
+      "end": 46.32,
+      "speaker": "S1",
+      "text": "like-"
+    },
+    {
+      "id": 115,
+      "start": 46.32,
+      "end": 46.48,
+      "speaker": "S1",
+      "text": "for-"
+    },
+    {
+      "id": 116,
+      "start": 46.48,
+      "end": 46.68,
+      "speaker": "S1",
+      "text": "like "
+    },
+    {
+      "id": 117,
+      "start": 46.7,
+      "end": 47.42,
+      "speaker": "S1",
+      "text": "comparison. "
+    },
+    {
+      "id": 118,
+      "start": 47.84,
+      "end": 48.12,
+      "speaker": "S1",
+      "text": "Both "
+    },
+    {
+      "id": 119,
+      "start": 48.12,
+      "end": 48.6,
+      "speaker": "S1",
+      "text": "products "
+    },
+    {
+      "id": 120,
+      "start": 48.6,
+      "end": 48.8,
+      "speaker": "S1",
+      "text": "show "
+    },
+    {
+      "id": 121,
+      "start": 48.82,
+      "end": 49.26,
+      "speaker": "S1",
+      "text": "modest "
+    },
+    {
+      "id": 122,
+      "start": 49.26,
+      "end": 49.9,
+      "speaker": "S1",
+      "text": "improvement. "
+    },
+    {
+      "id": 123,
+      "start": 50.24,
+      "end": 50.56,
+      "speaker": "S1",
+      "text": "Linked "
+    },
+    {
+      "id": 124,
+      "start": 50.58,
+      "end": 51.2,
+      "speaker": "S1",
+      "text": "references "
+    },
+    {
+      "id": 125,
+      "start": 51.22,
+      "end": 51.52,
+      "speaker": "S1",
+      "text": "open "
+    },
+    {
+      "id": 126,
+      "start": 51.52,
+      "end": 51.9,
+      "speaker": "S1",
+      "text": "business "
+    },
+    {
+      "id": 127,
+      "start": 51.92,
+      "end": 52.58,
+      "speaker": "S1",
+      "text": "definitions "
+    },
+    {
+      "id": 128,
+      "start": 52.58,
+      "end": 53.12,
+      "speaker": "S1",
+      "text": "directly "
+    },
+    {
+      "id": 129,
+      "start": 53.12,
+      "end": 53.26,
+      "speaker": "S1",
+      "text": "in "
+    },
+    {
+      "id": 130,
+      "start": 53.26,
+      "end": 53.34,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 131,
+      "start": 53.34,
+      "end": 53.76,
+      "speaker": "S1",
+      "text": "governed "
+    },
+    {
+      "id": 132,
+      "start": 53.78,
+      "end": 54.2,
+      "speaker": "S1",
+      "text": "knowledge "
+    },
+    {
+      "id": 133,
+      "start": 54.2,
+      "end": 54.62,
+      "speaker": "S1",
+      "text": "bundle."
+    },
+    {
+      "id": 134,
+      "start": 55.18,
+      "end": 55.8,
+      "speaker": "S1",
+      "text": "Interactive "
+    },
+    {
+      "id": 135,
+      "start": 55.82,
+      "end": 56.32,
+      "speaker": "S1",
+      "text": "previews "
+    },
+    {
+      "id": 136,
+      "start": 56.32,
+      "end": 56.5,
+      "speaker": "S1",
+      "text": "make "
+    },
+    {
+      "id": 137,
+      "start": 56.5,
+      "end": 56.62,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 138,
+      "start": 56.62,
+      "end": 56.98,
+      "speaker": "S1",
+      "text": "monthly "
+    },
+    {
+      "id": 139,
+      "start": 57,
+      "end": 57.48,
+      "speaker": "S1",
+      "text": "patterns "
+    },
+    {
+      "id": 140,
+      "start": 57.5,
+      "end": 57.78,
+      "speaker": "S1",
+      "text": "easy "
+    },
+    {
+      "id": 141,
+      "start": 57.78,
+      "end": 57.94,
+      "speaker": "S1",
+      "text": "to "
+    },
+    {
+      "id": 142,
+      "start": 57.94,
+      "end": 58.54,
+      "speaker": "S1",
+      "text": "inspect, "
+    },
+    {
+      "id": 143,
+      "start": 58.86,
+      "end": 59.04,
+      "speaker": "S1",
+      "text": "with "
+    },
+    {
+      "id": 144,
+      "start": 59.04,
+      "end": 59.38,
+      "speaker": "S1",
+      "text": "separate "
+    },
+    {
+      "id": 145,
+      "start": 59.4,
+      "end": 59.74,
+      "speaker": "S1",
+      "text": "views "
+    },
+    {
+      "id": 146,
+      "start": 59.74,
+      "end": 59.9,
+      "speaker": "S1",
+      "text": "for "
+    },
+    {
+      "id": 147,
+      "start": 59.9,
+      "end": 60.34,
+      "speaker": "S1",
+      "text": "Charge "
+    },
+    {
+      "id": 148,
+      "start": 60.36,
+      "end": 60.5,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 149,
+      "start": 60.5,
+      "end": 60.9,
+      "speaker": "S1",
+      "text": "Lend "
+    },
+    {
+      "id": 150,
+      "start": 60.92,
+      "end": 61.08,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 151,
+      "start": 61.08,
+      "end": 61.44,
+      "speaker": "S1",
+      "text": "clear "
+    },
+    {
+      "id": 152,
+      "start": 61.44,
+      "end": 61.72,
+      "speaker": "S1",
+      "text": "year-"
+    },
+    {
+      "id": 153,
+      "start": 61.72,
+      "end": 61.94,
+      "speaker": "S1",
+      "text": "over-"
+    },
+    {
+      "id": 154,
+      "start": 61.94,
+      "end": 62.16,
+      "speaker": "S1",
+      "text": "year "
+    },
+    {
+      "id": 155,
+      "start": 62.16,
+      "end": 63.06,
+      "speaker": "S1",
+      "text": "comparisons. "
+    },
+    {
+      "id": 156,
+      "start": 63.64,
+      "end": 63.74,
+      "speaker": "S1",
+      "text": "The "
+    },
+    {
+      "id": 157,
+      "start": 63.74,
+      "end": 64.22,
+      "speaker": "S1",
+      "text": "supporting "
+    },
+    {
+      "id": 158,
+      "start": 64.24,
+      "end": 64.88,
+      "speaker": "S1",
+      "text": "SQL, "
+    },
+    {
+      "id": 159,
+      "start": 65.12,
+      "end": 65.38,
+      "speaker": "S1",
+      "text": "data "
+    },
+    {
+      "id": 160,
+      "start": 65.4,
+      "end": 65.96,
+      "speaker": "S1",
+      "text": "extracts, "
+    },
+    {
+      "id": 161,
+      "start": 66.14,
+      "end": 66.3,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 162,
+      "start": 66.3,
+      "end": 66.72,
+      "speaker": "S1",
+      "text": "charts "
+    },
+    {
+      "id": 163,
+      "start": 66.74,
+      "end": 66.88,
+      "speaker": "S1",
+      "text": "are "
+    },
+    {
+      "id": 164,
+      "start": 66.9,
+      "end": 67.14,
+      "speaker": "S1",
+      "text": "linked "
+    },
+    {
+      "id": 165,
+      "start": 67.14,
+      "end": 67.64,
+      "speaker": "S1",
+      "text": "alongside "
+    },
+    {
+      "id": 166,
+      "start": 67.64,
+      "end": 67.74,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 167,
+      "start": 67.74,
+      "end": 68.22,
+      "speaker": "S1",
+      "text": "report, "
+    },
+    {
+      "id": 168,
+      "start": 68.38,
+      "end": 68.54,
+      "speaker": "S1",
+      "text": "so "
+    },
+    {
+      "id": 169,
+      "start": 68.54,
+      "end": 68.66,
+      "speaker": "S1",
+      "text": "we "
+    },
+    {
+      "id": 170,
+      "start": 68.66,
+      "end": 68.8,
+      "speaker": "S1",
+      "text": "can "
+    },
+    {
+      "id": 171,
+      "start": 68.8,
+      "end": 69.22,
+      "speaker": "S1",
+      "text": "inspect "
+    },
+    {
+      "id": 172,
+      "start": 69.22,
+      "end": 69.34,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 173,
+      "start": 69.34,
+      "end": 69.86,
+      "speaker": "S1",
+      "text": "underlying "
+    },
+    {
+      "id": 174,
+      "start": 69.86,
+      "end": 70.34,
+      "speaker": "S1",
+      "text": "evidence. "
+    },
+    {
+      "id": 175,
+      "start": 70.94,
+      "end": 71.48,
+      "speaker": "S1",
+      "text": "Next, "
+    },
+    {
+      "id": 176,
+      "start": 71.72,
+      "end": 71.92,
+      "speaker": "S1",
+      "text": "we "
+    },
+    {
+      "id": 177,
+      "start": 71.92,
+      "end": 72.24,
+      "speaker": "S1",
+      "text": "ask "
+    },
+    {
+      "id": 178,
+      "start": 72.24,
+      "end": 72.46,
+      "speaker": "S1",
+      "text": "what "
+    },
+    {
+      "id": 179,
+      "start": 72.46,
+      "end": 72.68,
+      "speaker": "S1",
+      "text": "might "
+    },
+    {
+      "id": 180,
+      "start": 72.68,
+      "end": 73.18,
+      "speaker": "S1",
+      "text": "explain "
+    },
+    {
+      "id": 181,
+      "start": 73.18,
+      "end": 73.28,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 182,
+      "start": 73.28,
+      "end": 73.66,
+      "speaker": "S1",
+      "text": "second "
+    },
+    {
+      "id": 183,
+      "start": 73.66,
+      "end": 74.04,
+      "speaker": "S1",
+      "text": "quarter "
+    },
+    {
+      "id": 184,
+      "start": 74.04,
+      "end": 74.72,
+      "speaker": "S1",
+      "text": "improvement. "
+    },
+    {
+      "id": 185,
+      "start": 75.16,
+      "end": 76.04,
+      "speaker": "S1",
+      "text": "InsightGen "
+    },
+    {
+      "id": 186,
+      "start": 76.06,
+      "end": 76.44,
+      "speaker": "S1",
+      "text": "ranks "
+    },
+    {
+      "id": 187,
+      "start": 76.46,
+      "end": 76.94,
+      "speaker": "S1",
+      "text": "candidate "
+    },
+    {
+      "id": 188,
+      "start": 76.96,
+      "end": 77.88,
+      "speaker": "S1",
+      "text": "hypotheses, "
+    },
+    {
+      "id": 189,
+      "start": 78.12,
+      "end": 78.58,
+      "speaker": "S1",
+      "text": "spelling "
+    },
+    {
+      "id": 190,
+      "start": 78.6,
+      "end": 78.76,
+      "speaker": "S1",
+      "text": "out "
+    },
+    {
+      "id": 191,
+      "start": 78.76,
+      "end": 78.92,
+      "speaker": "S1",
+      "text": "their "
+    },
+    {
+      "id": 192,
+      "start": 78.92,
+      "end": 79.7,
+      "speaker": "S1",
+      "text": "mechanisms, "
+    },
+    {
+      "id": 193,
+      "start": 79.92,
+      "end": 80.52,
+      "speaker": "S1",
+      "text": "expected "
+    },
+    {
+      "id": 194,
+      "start": 80.52,
+      "end": 81.14,
+      "speaker": "S1",
+      "text": "signals, "
+    },
+    {
+      "id": 195,
+      "start": 81.38,
+      "end": 81.58,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 196,
+      "start": 81.58,
+      "end": 82.18,
+      "speaker": "S1",
+      "text": "tests, "
+    },
+    {
+      "id": 197,
+      "start": 82.44,
+      "end": 82.8,
+      "speaker": "S1",
+      "text": "rather "
+    },
+    {
+      "id": 198,
+      "start": 82.8,
+      "end": 82.98,
+      "speaker": "S1",
+      "text": "than "
+    },
+    {
+      "id": 199,
+      "start": 82.98,
+      "end": 83.42,
+      "speaker": "S1",
+      "text": "jumping "
+    },
+    {
+      "id": 200,
+      "start": 83.42,
+      "end": 83.78,
+      "speaker": "S1",
+      "text": "straight "
+    },
+    {
+      "id": 201,
+      "start": 83.8,
+      "end": 83.98,
+      "speaker": "S1",
+      "text": "to "
+    },
+    {
+      "id": 202,
+      "start": 83.98,
+      "end": 84.04,
+      "speaker": "S1",
+      "text": "a "
+    },
+    {
+      "id": 203,
+      "start": 84.04,
+      "end": 84.76,
+      "speaker": "S1",
+      "text": "conclusion. "
+    },
+    {
+      "id": 204,
+      "start": 85.34,
+      "end": 85.52,
+      "speaker": "S1",
+      "text": "We "
+    },
+    {
+      "id": 205,
+      "start": 85.54,
+      "end": 85.88,
+      "speaker": "S1",
+      "text": "ask "
+    },
+    {
+      "id": 206,
+      "start": 85.88,
+      "end": 85.96,
+      "speaker": "S1",
+      "text": "it "
+    },
+    {
+      "id": 207,
+      "start": 85.96,
+      "end": 86.1,
+      "speaker": "S1",
+      "text": "to "
+    },
+    {
+      "id": 208,
+      "start": 86.1,
+      "end": 86.44,
+      "speaker": "S1",
+      "text": "test "
+    },
+    {
+      "id": 209,
+      "start": 86.46,
+      "end": 86.58,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 210,
+      "start": 86.58,
+      "end": 86.88,
+      "speaker": "S1",
+      "text": "top "
+    },
+    {
+      "id": 211,
+      "start": 86.88,
+      "end": 87.22,
+      "speaker": "S1",
+      "text": "two. "
+    },
+    {
+      "id": 212,
+      "start": 87.9,
+      "end": 88.02,
+      "speaker": "S1",
+      "text": "The "
+    },
+    {
+      "id": 213,
+      "start": 88.02,
+      "end": 88.52,
+      "speaker": "S1",
+      "text": "results "
+    },
+    {
+      "id": 214,
+      "start": 88.52,
+      "end": 88.98,
+      "speaker": "S1",
+      "text": "reject "
+    },
+    {
+      "id": 215,
+      "start": 88.98,
+      "end": 89.5,
+      "speaker": "S1",
+      "text": "favorable "
+    },
+    {
+      "id": 216,
+      "start": 89.52,
+      "end": 90.2,
+      "speaker": "S1",
+      "text": "portfolio "
+    },
+    {
+      "id": 217,
+      "start": 90.2,
+      "end": 90.56,
+      "speaker": "S1",
+      "text": "mix "
+    },
+    {
+      "id": 218,
+      "start": 90.58,
+      "end": 90.76,
+      "speaker": "S1",
+      "text": "as "
+    },
+    {
+      "id": 219,
+      "start": 90.76,
+      "end": 90.9,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 220,
+      "start": 90.9,
+      "end": 91.68,
+      "speaker": "S1",
+      "text": "explanation "
+    },
+    {
+      "id": 221,
+      "start": 91.94,
+      "end": 92.1,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 222,
+      "start": 92.1,
+      "end": 92.42,
+      "speaker": "S1",
+      "text": "find "
+    },
+    {
+      "id": 223,
+      "start": 92.44,
+      "end": 92.94,
+      "speaker": "S1",
+      "text": "repayment "
+    },
+    {
+      "id": 224,
+      "start": 92.96,
+      "end": 93.44,
+      "speaker": "S1",
+      "text": "behavior "
+    },
+    {
+      "id": 225,
+      "start": 93.44,
+      "end": 93.96,
+      "speaker": "S1",
+      "text": "supportive "
+    },
+    {
+      "id": 226,
+      "start": 93.98,
+      "end": 94.14,
+      "speaker": "S1",
+      "text": "for "
+    },
+    {
+      "id": 227,
+      "start": 94.14,
+      "end": 94.64,
+      "speaker": "S1",
+      "text": "Charge "
+    },
+    {
+      "id": 228,
+      "start": 94.78,
+      "end": 94.94,
+      "speaker": "S1",
+      "text": "but "
+    },
+    {
+      "id": 229,
+      "start": 94.94,
+      "end": 95.18,
+      "speaker": "S1",
+      "text": "not "
+    },
+    {
+      "id": 230,
+      "start": 95.2,
+      "end": 95.6,
+      "speaker": "S1",
+      "text": "Lend. "
+    },
+    {
+      "id": 231,
+      "start": 96.04,
+      "end": 96.66,
+      "speaker": "S1",
+      "text": "Finally, "
+    },
+    {
+      "id": 232,
+      "start": 96.96,
+      "end": 97.68,
+      "speaker": "S1",
+      "text": "InsightGen "
+    },
+    {
+      "id": 233,
+      "start": 97.68,
+      "end": 98,
+      "speaker": "S1",
+      "text": "brings "
+    },
+    {
+      "id": 234,
+      "start": 98,
+      "end": 98.12,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 235,
+      "start": 98.12,
+      "end": 98.82,
+      "speaker": "S1",
+      "text": "investigation "
+    },
+    {
+      "id": 236,
+      "start": 98.84,
+      "end": 99.26,
+      "speaker": "S1",
+      "text": "together: "
+    },
+    {
+      "id": 237,
+      "start": 99.58,
+      "end": 99.7,
+      "speaker": "S1",
+      "text": "an "
+    },
+    {
+      "id": 238,
+      "start": 99.7,
+      "end": 100.24,
+      "speaker": "S1",
+      "text": "executive "
+    },
+    {
+      "id": 239,
+      "start": 100.26,
+      "end": 100.76,
+      "speaker": "S1",
+      "text": "summary, "
+    },
+    {
+      "id": 240,
+      "start": 101,
+      "end": 101.58,
+      "speaker": "S1",
+      "text": "decisive "
+    },
+    {
+      "id": 241,
+      "start": 101.6,
+      "end": 102.06,
+      "speaker": "S1",
+      "text": "charts, "
+    },
+    {
+      "id": 242,
+      "start": 102.24,
+      "end": 102.76,
+      "speaker": "S1",
+      "text": "supporting "
+    },
+    {
+      "id": 243,
+      "start": 102.78,
+      "end": 103.28,
+      "speaker": "S1",
+      "text": "evidence, "
+    },
+    {
+      "id": 244,
+      "start": 103.52,
+      "end": 103.66,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 245,
+      "start": 103.68,
+      "end": 104.26,
+      "speaker": "S1",
+      "text": "recommended "
+    },
+    {
+      "id": 246,
+      "start": 104.26,
+      "end": 104.56,
+      "speaker": "S1",
+      "text": "next "
+    },
+    {
+      "id": 247,
+      "start": 104.56,
+      "end": 105.02,
+      "speaker": "S1",
+      "text": "steps. "
+    },
+    {
+      "id": 248,
+      "start": 105.56,
+      "end": 105.9,
+      "speaker": "S1",
+      "text": "Now, "
+    },
+    {
+      "id": 249,
+      "start": 106.24,
+      "end": 106.46,
+      "speaker": "S1",
+      "text": "let's "
+    },
+    {
+      "id": 250,
+      "start": 106.46,
+      "end": 106.68,
+      "speaker": "S1",
+      "text": "see "
+    },
+    {
+      "id": 251,
+      "start": 106.68,
+      "end": 106.84,
+      "speaker": "S1",
+      "text": "how "
+    },
+    {
+      "id": 252,
+      "start": 106.84,
+      "end": 106.98,
+      "speaker": "S1",
+      "text": "we "
+    },
+    {
+      "id": 253,
+      "start": 106.98,
+      "end": 107.16,
+      "speaker": "S1",
+      "text": "make "
+    },
+    {
+      "id": 254,
+      "start": 107.16,
+      "end": 107.36,
+      "speaker": "S1",
+      "text": "this "
+    },
+    {
+      "id": 255,
+      "start": 107.36,
+      "end": 107.66,
+      "speaker": "S1",
+      "text": "work "
+    },
+    {
+      "id": 256,
+      "start": 107.66,
+      "end": 107.74,
+      "speaker": "S1",
+      "text": "in "
+    },
+    {
+      "id": 257,
+      "start": 107.74,
+      "end": 107.86,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 258,
+      "start": 107.86,
+      "end": 108.2,
+      "speaker": "S1",
+      "text": "Amex "
+    },
+    {
+      "id": 259,
+      "start": 108.2,
+      "end": 108.56,
+      "speaker": "S1",
+      "text": "business "
+    },
+    {
+      "id": 260,
+      "start": 108.56,
+      "end": 108.94,
+      "speaker": "S1",
+      "text": "setting."
+    },
+    {
+      "id": 261,
+      "start": 109.52,
+      "end": 110.02,
+      "speaker": "S1",
+      "text": "General "
+    },
+    {
+      "id": 262,
+      "start": 110.04,
+      "end": 110.46,
+      "speaker": "S1",
+      "text": "purpose "
+    },
+    {
+      "id": 263,
+      "start": 110.48,
+      "end": 110.92,
+      "speaker": "S1",
+      "text": "agents "
+    },
+    {
+      "id": 264,
+      "start": 110.92,
+      "end": 111.18,
+      "speaker": "S1",
+      "text": "bring "
+    },
+    {
+      "id": 265,
+      "start": 111.2,
+      "end": 111.74,
+      "speaker": "S1",
+      "text": "reasoning "
+    },
+    {
+      "id": 266,
+      "start": 111.74,
+      "end": 111.84,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 267,
+      "start": 111.86,
+      "end": 112.44,
+      "speaker": "S1",
+      "text": "tools. "
+    },
+    {
+      "id": 268,
+      "start": 112.86,
+      "end": 113.04,
+      "speaker": "S1",
+      "text": "Our "
+    },
+    {
+      "id": 269,
+      "start": 113.04,
+      "end": 113.84,
+      "speaker": "S1",
+      "text": "differentiator "
+    },
+    {
+      "id": 270,
+      "start": 113.86,
+      "end": 114,
+      "speaker": "S1",
+      "text": "is "
+    },
+    {
+      "id": 271,
+      "start": 114,
+      "end": 114.16,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 272,
+      "start": 114.16,
+      "end": 114.68,
+      "speaker": "S1",
+      "text": "enterprise "
+    },
+    {
+      "id": 273,
+      "start": 114.68,
+      "end": 115.08,
+      "speaker": "S1",
+      "text": "system "
+    },
+    {
+      "id": 274,
+      "start": 115.08,
+      "end": 115.42,
+      "speaker": "S1",
+      "text": "around "
+    },
+    {
+      "id": 275,
+      "start": 115.42,
+      "end": 115.66,
+      "speaker": "S1",
+      "text": "them: "
+    },
+    {
+      "id": 276,
+      "start": 116.08,
+      "end": 116.5,
+      "speaker": "S1",
+      "text": "business "
+    },
+    {
+      "id": 277,
+      "start": 116.5,
+      "end": 116.72,
+      "speaker": "S1",
+      "text": "owned "
+    },
+    {
+      "id": 278,
+      "start": 116.72,
+      "end": 117.22,
+      "speaker": "S1",
+      "text": "knowledge, "
+    },
+    {
+      "id": 279,
+      "start": 117.5,
+      "end": 118.12,
+      "speaker": "S1",
+      "text": "reusable "
+    },
+    {
+      "id": 280,
+      "start": 118.14,
+      "end": 118.54,
+      "speaker": "S1",
+      "text": "expert "
+    },
+    {
+      "id": 281,
+      "start": 118.54,
+      "end": 119.06,
+      "speaker": "S1",
+      "text": "methods, "
+    },
+    {
+      "id": 282,
+      "start": 119.28,
+      "end": 119.76,
+      "speaker": "S1",
+      "text": "controlled "
+    },
+    {
+      "id": 283,
+      "start": 119.78,
+      "end": 120.06,
+      "speaker": "S1",
+      "text": "data "
+    },
+    {
+      "id": 284,
+      "start": 120.08,
+      "end": 120.64,
+      "speaker": "S1",
+      "text": "access, "
+    },
+    {
+      "id": 285,
+      "start": 120.84,
+      "end": 121.02,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 286,
+      "start": 121.04,
+      "end": 121.48,
+      "speaker": "S1",
+      "text": "evidence "
+    },
+    {
+      "id": 287,
+      "start": 121.48,
+      "end": 121.76,
+      "speaker": "S1",
+      "text": "driven "
+    },
+    {
+      "id": 288,
+      "start": 121.76,
+      "end": 122.4,
+      "speaker": "S1",
+      "text": "improvement. "
+    },
+    {
+      "id": 289,
+      "start": 123.02,
+      "end": 123.42,
+      "speaker": "S1",
+      "text": "Business "
+    },
+    {
+      "id": 290,
+      "start": 123.42,
+      "end": 123.8,
+      "speaker": "S1",
+      "text": "teams "
+    },
+    {
+      "id": 291,
+      "start": 123.82,
+      "end": 124.22,
+      "speaker": "S1",
+      "text": "curate "
+    },
+    {
+      "id": 292,
+      "start": 124.24,
+      "end": 125,
+      "speaker": "S1",
+      "text": "definitions, "
+    },
+    {
+      "id": 293,
+      "start": 125.2,
+      "end": 125.84,
+      "speaker": "S1",
+      "text": "policies, "
+    },
+    {
+      "id": 294,
+      "start": 126.04,
+      "end": 126.2,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 295,
+      "start": 126.2,
+      "end": 126.88,
+      "speaker": "S1",
+      "text": "context "
+    },
+    {
+      "id": 296,
+      "start": 127.04,
+      "end": 127.2,
+      "speaker": "S1",
+      "text": "in "
+    },
+    {
+      "id": 297,
+      "start": 127.22,
+      "end": 127.76,
+      "speaker": "S1",
+      "text": "Enterprise "
+    },
+    {
+      "id": 298,
+      "start": 127.76,
+      "end": 128.14,
+      "speaker": "S1",
+      "text": "Knowledge "
+    },
+    {
+      "id": 299,
+      "start": 128.14,
+      "end": 128.76,
+      "speaker": "S1",
+      "text": "Foundation. "
+    },
+    {
+      "id": 300,
+      "start": 129.12,
+      "end": 129.32,
+      "speaker": "S1",
+      "text": "Their "
+    },
+    {
+      "id": 301,
+      "start": 129.34,
+      "end": 129.92,
+      "speaker": "S1",
+      "text": "analytical "
+    },
+    {
+      "id": 302,
+      "start": 129.94,
+      "end": 130.74,
+      "speaker": "S1",
+      "text": "expertise "
+    },
+    {
+      "id": 303,
+      "start": 130.9,
+      "end": 131.32,
+      "speaker": "S1",
+      "text": "becomes "
+    },
+    {
+      "id": 304,
+      "start": 131.34,
+      "end": 131.92,
+      "speaker": "S1",
+      "text": "reusable "
+    },
+    {
+      "id": 305,
+      "start": 131.94,
+      "end": 132.48,
+      "speaker": "S1",
+      "text": "primitives "
+    },
+    {
+      "id": 306,
+      "start": 132.7,
+      "end": 132.86,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 307,
+      "start": 132.86,
+      "end": 133.38,
+      "speaker": "S1",
+      "text": "skills "
+    },
+    {
+      "id": 308,
+      "start": 133.38,
+      "end": 133.6,
+      "speaker": "S1",
+      "text": "through "
+    },
+    {
+      "id": 309,
+      "start": 133.6,
+      "end": 133.88,
+      "speaker": "S1",
+      "text": "Skill "
+    },
+    {
+      "id": 310,
+      "start": 133.88,
+      "end": 134.36,
+      "speaker": "S1",
+      "text": "Foundry. "
+    },
+    {
+      "id": 311,
+      "start": 134.94,
+      "end": 135.06,
+      "speaker": "S1",
+      "text": "The "
+    },
+    {
+      "id": 312,
+      "start": 135.06,
+      "end": 135.3,
+      "speaker": "S1",
+      "text": "C"
+    },
+    {
+      "id": 313,
+      "start": 135.3,
+      "end": 135.74,
+      "speaker": "S1",
+      "text": "60 "
+    },
+    {
+      "id": 314,
+      "start": 135.76,
+      "end": 136.3,
+      "speaker": "S1",
+      "text": "definition "
+    },
+    {
+      "id": 315,
+      "start": 136.32,
+      "end": 136.66,
+      "speaker": "S1",
+      "text": "grounds "
+    },
+    {
+      "id": 316,
+      "start": 136.68,
+      "end": 137.34,
+      "speaker": "S1",
+      "text": "comparison, "
+    },
+    {
+      "id": 317,
+      "start": 137.36,
+      "end": 138.16,
+      "speaker": "S1",
+      "text": "segmentation, "
+    },
+    {
+      "id": 318,
+      "start": 138.16,
+      "end": 138.28,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 319,
+      "start": 138.28,
+      "end": 138.82,
+      "speaker": "S1",
+      "text": "testing. "
+    },
+    {
+      "id": 320,
+      "start": 139,
+      "end": 139.3,
+      "speaker": "S1",
+      "text": "Those "
+    },
+    {
+      "id": 321,
+      "start": 139.32,
+      "end": 139.82,
+      "speaker": "S1",
+      "text": "primitives "
+    },
+    {
+      "id": 322,
+      "start": 139.82,
+      "end": 140.3,
+      "speaker": "S1",
+      "text": "compose "
+    },
+    {
+      "id": 323,
+      "start": 140.3,
+      "end": 140.52,
+      "speaker": "S1",
+      "text": "into "
+    },
+    {
+      "id": 324,
+      "start": 140.52,
+      "end": 140.6,
+      "speaker": "S1",
+      "text": "a "
+    },
+    {
+      "id": 325,
+      "start": 140.6,
+      "end": 140.98,
+      "speaker": "S1",
+      "text": "governed "
+    },
+    {
+      "id": 326,
+      "start": 140.98,
+      "end": 141.4,
+      "speaker": "S1",
+      "text": "skill "
+    },
+    {
+      "id": 327,
+      "start": 141.6,
+      "end": 141.78,
+      "speaker": "S1",
+      "text": "with "
+    },
+    {
+      "id": 328,
+      "start": 141.78,
+      "end": 141.9,
+      "speaker": "S1",
+      "text": "its "
+    },
+    {
+      "id": 329,
+      "start": 141.9,
+      "end": 142.26,
+      "speaker": "S1",
+      "text": "source "
+    },
+    {
+      "id": 330,
+      "start": 142.28,
+      "end": 142.58,
+      "speaker": "S1",
+      "text": "links "
+    },
+    {
+      "id": 331,
+      "start": 142.6,
+      "end": 143.14,
+      "speaker": "S1",
+      "text": "retained. "
+    },
+    {
+      "id": 332,
+      "start": 143.68,
+      "end": 144.04,
+      "speaker": "S1",
+      "text": "Teams "
+    },
+    {
+      "id": 333,
+      "start": 144.04,
+      "end": 144.28,
+      "speaker": "S1",
+      "text": "use "
+    },
+    {
+      "id": 334,
+      "start": 144.3,
+      "end": 144.68,
+      "speaker": "S1",
+      "text": "Insight "
+    },
+    {
+      "id": 335,
+      "start": 144.7,
+      "end": 145.06,
+      "speaker": "S1",
+      "text": "Gen "
+    },
+    {
+      "id": 336,
+      "start": 145.06,
+      "end": 145.22,
+      "speaker": "S1",
+      "text": "to "
+    },
+    {
+      "id": 337,
+      "start": 145.22,
+      "end": 145.58,
+      "speaker": "S1",
+      "text": "apply "
+    },
+    {
+      "id": 338,
+      "start": 145.58,
+      "end": 145.76,
+      "speaker": "S1",
+      "text": "that "
+    },
+    {
+      "id": 339,
+      "start": 145.76,
+      "end": 146.16,
+      "speaker": "S1",
+      "text": "knowledge "
+    },
+    {
+      "id": 340,
+      "start": 146.16,
+      "end": 146.26,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 341,
+      "start": 146.26,
+      "end": 146.68,
+      "speaker": "S1",
+      "text": "skill, "
+    },
+    {
+      "id": 342,
+      "start": 147.02,
+      "end": 147.38,
+      "speaker": "S1",
+      "text": "connect "
+    },
+    {
+      "id": 343,
+      "start": 147.38,
+      "end": 147.5,
+      "speaker": "S1",
+      "text": "to "
+    },
+    {
+      "id": 344,
+      "start": 147.5,
+      "end": 147.88,
+      "speaker": "S1",
+      "text": "permitted "
+    },
+    {
+      "id": 345,
+      "start": 147.88,
+      "end": 148.28,
+      "speaker": "S1",
+      "text": "data, "
+    },
+    {
+      "id": 346,
+      "start": 148.6,
+      "end": 148.74,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 347,
+      "start": 148.76,
+      "end": 149.12,
+      "speaker": "S1",
+      "text": "return "
+    },
+    {
+      "id": 348,
+      "start": 149.14,
+      "end": 149.62,
+      "speaker": "S1",
+      "text": "findings "
+    },
+    {
+      "id": 349,
+      "start": 149.62,
+      "end": 149.76,
+      "speaker": "S1",
+      "text": "with "
+    },
+    {
+      "id": 350,
+      "start": 149.78,
+      "end": 150.34,
+      "speaker": "S1",
+      "text": "evidence. "
+    },
+    {
+      "id": 351,
+      "start": 150.9,
+      "end": 151.14,
+      "speaker": "S1",
+      "text": "As "
+    },
+    {
+      "id": 352,
+      "start": 151.14,
+      "end": 151.3,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 353,
+      "start": 151.3,
+      "end": 151.58,
+      "speaker": "S1",
+      "text": "agent "
+    },
+    {
+      "id": 354,
+      "start": 151.6,
+      "end": 152.04,
+      "speaker": "S1",
+      "text": "runs, "
+    },
+    {
+      "id": 355,
+      "start": 152.28,
+      "end": 152.44,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 356,
+      "start": 152.44,
+      "end": 152.74,
+      "speaker": "S1",
+      "text": "agent "
+    },
+    {
+      "id": 357,
+      "start": 152.76,
+      "end": 153.48,
+      "speaker": "S1",
+      "text": "observability "
+    },
+    {
+      "id": 358,
+      "start": 153.48,
+      "end": 153.98,
+      "speaker": "S1",
+      "text": "framework "
+    },
+    {
+      "id": 359,
+      "start": 154,
+      "end": 154.48,
+      "speaker": "S1",
+      "text": "captures "
+    },
+    {
+      "id": 360,
+      "start": 154.48,
+      "end": 154.64,
+      "speaker": "S1",
+      "text": "its "
+    },
+    {
+      "id": 361,
+      "start": 154.64,
+      "end": 155.24,
+      "speaker": "S1",
+      "text": "execution "
+    },
+    {
+      "id": 362,
+      "start": 155.26,
+      "end": 155.62,
+      "speaker": "S1",
+      "text": "trace "
+    },
+    {
+      "id": 363,
+      "start": 155.62,
+      "end": 155.7,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 364,
+      "start": 155.72,
+      "end": 156.16,
+      "speaker": "S1",
+      "text": "quality "
+    },
+    {
+      "id": 365,
+      "start": 156.18,
+      "end": 156.74,
+      "speaker": "S1",
+      "text": "signals. "
+    },
+    {
+      "id": 366,
+      "start": 157.22,
+      "end": 157.6,
+      "speaker": "S1",
+      "text": "Harness "
+    },
+    {
+      "id": 367,
+      "start": 157.6,
+      "end": 158.22,
+      "speaker": "S1",
+      "text": "Intelligence "
+    },
+    {
+      "id": 368,
+      "start": 158.24,
+      "end": 158.56,
+      "speaker": "S1",
+      "text": "uses "
+    },
+    {
+      "id": 369,
+      "start": 158.56,
+      "end": 158.72,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 370,
+      "start": 158.72,
+      "end": 159.14,
+      "speaker": "S1",
+      "text": "evidence "
+    },
+    {
+      "id": 371,
+      "start": 159.16,
+      "end": 159.26,
+      "speaker": "S1",
+      "text": "to "
+    },
+    {
+      "id": 372,
+      "start": 159.26,
+      "end": 159.98,
+      "speaker": "S1",
+      "text": "diagnose, "
+    },
+    {
+      "id": 373,
+      "start": 160.18,
+      "end": 160.62,
+      "speaker": "S1",
+      "text": "test, "
+    },
+    {
+      "id": 374,
+      "start": 160.8,
+      "end": 160.96,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 375,
+      "start": 160.96,
+      "end": 161.44,
+      "speaker": "S1",
+      "text": "validate "
+    },
+    {
+      "id": 376,
+      "start": 161.44,
+      "end": 161.5,
+      "speaker": "S1",
+      "text": "a "
+    },
+    {
+      "id": 377,
+      "start": 161.52,
+      "end": 162.02,
+      "speaker": "S1",
+      "text": "change. "
+    },
+    {
+      "id": 378,
+      "start": 162.2,
+      "end": 162.36,
+      "speaker": "S1",
+      "text": "The "
+    },
+    {
+      "id": 379,
+      "start": 162.36,
+      "end": 162.76,
+      "speaker": "S1",
+      "text": "improved "
+    },
+    {
+      "id": 380,
+      "start": 162.76,
+      "end": 163.08,
+      "speaker": "S1",
+      "text": "skill "
+    },
+    {
+      "id": 381,
+      "start": 163.1,
+      "end": 163.58,
+      "speaker": "S1",
+      "text": "returns "
+    },
+    {
+      "id": 382,
+      "start": 163.58,
+      "end": 163.7,
+      "speaker": "S1",
+      "text": "to "
+    },
+    {
+      "id": 383,
+      "start": 163.7,
+      "end": 164,
+      "speaker": "S1",
+      "text": "Skill "
+    },
+    {
+      "id": 384,
+      "start": 164,
+      "end": 164.52,
+      "speaker": "S1",
+      "text": "Foundry "
+    },
+    {
+      "id": 385,
+      "start": 164.66,
+      "end": 164.8,
+      "speaker": "S1",
+      "text": "and "
+    },
+    {
+      "id": 386,
+      "start": 164.8,
+      "end": 164.9,
+      "speaker": "S1",
+      "text": "the "
+    },
+    {
+      "id": 387,
+      "start": 164.9,
+      "end": 165.24,
+      "speaker": "S1",
+      "text": "next "
+    },
+    {
+      "id": 388,
+      "start": 165.24,
+      "end": 165.58,
+      "speaker": "S1",
+      "text": "agent "
+    },
+    {
+      "id": 389,
+      "start": 165.6,
+      "end": 165.92,
+      "speaker": "S1",
+      "text": "run."
+    },
+    {
+      "id": 390,
+      "start": 166.46,
+      "end": 166.7,
+      "speaker": "S1",
+      "text": "Built "
+    },
+    {
+      "id": 391,
+      "start": 166.72,
+      "end": 167.18,
+      "speaker": "S1",
+      "text": "once, "
+    },
+    {
+      "id": 392,
+      "start": 167.42,
+      "end": 168.2,
+      "speaker": "S1",
+      "text": "specialized "
+    },
+    {
+      "id": 393,
+      "start": 168.2,
+      "end": 168.46,
+      "speaker": "S1",
+      "text": "many "
+    },
+    {
+      "id": 394,
+      "start": 168.46,
+      "end": 169,
+      "speaker": "S1",
+      "text": "times, "
+    },
+    {
+      "id": 395,
+      "start": 169.28,
+      "end": 169.86,
+      "speaker": "S1",
+      "text": "improving "
+    },
+    {
+      "id": 396,
+      "start": 169.86,
+      "end": 170.76,
+      "speaker": "S1",
+      "text": "continuously."
+    }
+  ],
+  "trace_id": "0739295762a50333a61a9cbb99b50857"
+}
