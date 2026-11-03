@@ -1,0 +1,196 @@
+[
+  {
+    "shot": 1,
+    "duration": 10,
+    "title": "The portfolio question",
+    "subtitle": "Why did the metric move?",
+    "captions": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "A business question",
+        "overlay": "overlays/shot1_0.png"
+      },
+      {
+        "start": 4,
+        "end": 8,
+        "text": "Governed knowledge  +  Evidence",
+        "overlay": "overlays/shot1_1.png"
+      },
+      {
+        "start": 8,
+        "end": 10,
+        "text": "INSIGHTGEN  /  ONE SESSION",
+        "overlay": "overlays/shot1_2.png"
+      }
+    ]
+  },
+  {
+    "shot": 2,
+    "duration": 14,
+    "title": "Enterprise analysis needs context",
+    "subtitle": "Powerful agents. Enterprise knowledge.",
+    "captions": [
+      {
+        "start": 0,
+        "end": 5,
+        "text": "Enterprise context and controls require integration",
+        "overlay": "overlays/shot2_0.png"
+      },
+      {
+        "start": 5,
+        "end": 10,
+        "text": "Definitions  +  Expert methods  +  Controlled access",
+        "overlay": "overlays/shot2_1.png"
+      },
+      {
+        "start": 10,
+        "end": 14,
+        "text": "Connected context. Traceable evidence.",
+        "overlay": "overlays/shot2_2.png"
+      }
+    ]
+  },
+  {
+    "shot": 3,
+    "duration": 10,
+    "title": "Blue Orbit",
+    "subtitle": "One foundation. Many kinds of work.",
+    "captions": [
+      {
+        "start": 0,
+        "end": 4,
+        "text": "SHARED ENTERPRISE FOUNDATION",
+        "overlay": "overlays/shot3_0.png"
+      },
+      {
+        "start": 4,
+        "end": 10,
+        "text": "BUILT ONCE  /  SPECIALIZED MANY TIMES",
+        "overlay": "overlays/shot3_1.png"
+      }
+    ]
+  },
+  {
+    "shot": 4,
+    "duration": 9,
+    "title": "Enterprise Knowledge Foundation",
+    "subtitle": "Definitions. Context. Policies.",
+    "captions": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "BUSINESS DOCUMENTS",
+        "overlay": "overlays/shot4_0.png"
+      },
+      {
+        "start": 3,
+        "end": 6,
+        "text": "CONNECTED KNOWLEDGE",
+        "overlay": "overlays/shot4_1.png"
+      },
+      {
+        "start": 6,
+        "end": 9,
+        "text": "SOURCE-LINKED KNOWLEDGE FOR EVERY AGENT",
+        "overlay": "overlays/shot4_2.png"
+      }
+    ]
+  },
+  {
+    "shot": 5,
+    "duration": 11,
+    "title": "Skill Foundry",
+    "subtitle": "EKF grounds primitives. Primitives compose skills.",
+    "captions": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "REUSABLE PRIMITIVES  /  COMPARE · SEGMENT · TEST",
+        "overlay": "overlays/shot5_0.png"
+      },
+      {
+        "start": 3,
+        "end": 6,
+        "text": "EKF → KNOWLEDGE-GROUNDED COMPONENTS",
+        "overlay": "overlays/shot5_1.png"
+      },
+      {
+        "start": 6,
+        "end": 11,
+        "text": "GOVERNED SKILLS  /  COMPOSE → VALIDATE → REUSE",
+        "overlay": "overlays/shot5_2.png"
+      }
+    ]
+  },
+  {
+    "shot": 6,
+    "duration": 9,
+    "title": "Agent Observability Framework",
+    "subtitle": "Execution evidence for continuous improvement.",
+    "captions": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "TRACE THE RUN",
+        "overlay": "overlays/shot6_0.png"
+      },
+      {
+        "start": 3,
+        "end": 6,
+        "text": "EVALUATE QUALITY",
+        "overlay": "overlays/shot6_1.png"
+      },
+      {
+        "start": 6,
+        "end": 7,
+        "text": "DIAGNOSE THE CONTRIBUTING STEP",
+        "overlay": "overlays/shot6_2.png"
+      },
+      {
+        "start": 7,
+        "end": 9,
+        "text": "EXECUTION EVIDENCE → HARNESS INTELLIGENCE",
+        "overlay": "overlays/shot6_3.png"
+      }
+    ]
+  },
+  {
+    "shot": 7,
+    "duration": 15,
+    "title": "Harness Intelligence",
+    "subtitle": "AOF evidence drives validated platform improvements.",
+    "captions": [
+      {
+        "start": 0,
+        "end": 3,
+        "text": "AOF → EXECUTION EVIDENCE → HARNESS INTELLIGENCE",
+        "overlay": "overlays/shot7_0.png"
+      },
+      {
+        "start": 3,
+        "end": 5.5,
+        "text": "OBSERVE → EVALUATE → DIAGNOSE",
+        "overlay": "overlays/shot7_1.png"
+      },
+      {
+        "start": 5.5,
+        "end": 8,
+        "text": "OPTIMIZE → VALIDATE → LEARN",
+        "overlay": "overlays/shot7_2.png"
+      },
+      {
+        "start": 8,
+        "end": 10.25,
+        "text": "VALIDATED IMPROVEMENTS ACROSS THE PLATFORM",
+        "overlay": "overlays/shot7_3.png"
+      },
+      {
+        "start": 10.25,
+        "end": 15,
+        "text": "Built once. Specialized many times. Improving continuously.",
+        "overlay": "overlays/shot7_4.png"
+      }
+    ]
+  }
+]

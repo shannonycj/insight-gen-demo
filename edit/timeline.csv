@@ -1,0 +1,17 @@
+act,shot_or_segment,relative_start_seconds,duration_seconds,asset
+opening,1,0,10,media/01_opening.mp4
+demo,1,0,12,audio/demo_segments/vo_demo_01.mp3
+demo,2,12,10,audio/demo_segments/vo_demo_02.mp3
+demo,3,22,10,audio/demo_segments/vo_demo_03.mp3
+demo,4,32,14,audio/demo_segments/vo_demo_04.mp3
+demo,5,46,10,audio/demo_segments/vo_demo_05.mp3
+demo,6,56,9,audio/demo_segments/vo_demo_06.mp3
+demo,7,65,13,audio/demo_segments/vo_demo_07.mp3
+demo,8,78,11,audio/demo_segments/vo_demo_08.mp3
+demo,9,89,7,audio/demo_segments/vo_demo_09.mp3
+under_the_hood,2,0,14,edit/narrated_shots/shot2.mp4
+under_the_hood,3,14,10,edit/narrated_shots/shot3.mp4
+under_the_hood,4,24,9,edit/narrated_shots/shot4.mp4
+under_the_hood,5,33,11,edit/narrated_shots/shot5.mp4
+under_the_hood,6,44,9,edit/narrated_shots/shot6.mp4
+under_the_hood,7,53,15,edit/narrated_shots/shot7.mp4

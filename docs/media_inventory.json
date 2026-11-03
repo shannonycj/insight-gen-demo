@@ -1,0 +1,480 @@
+[
+  {
+    "path": "audio/01_opening_narration.mp3",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/02_demo_narration.mp3",
+    "seconds": 96.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/03_under_the_hood_narration.mp3",
+    "seconds": 68.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_01.mp3",
+    "seconds": 12.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_02.mp3",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_03.mp3",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_04.mp3",
+    "seconds": 14.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_05.mp3",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_06.mp3",
+    "seconds": 9.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_07.mp3",
+    "seconds": 13.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_08.mp3",
+    "seconds": 11.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/demo_segments/vo_demo_09.mp3",
+    "seconds": 7.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/explainer_segments/vo_shot2.mp3",
+    "seconds": 14.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/explainer_segments/vo_shot3.mp3",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/explainer_segments/vo_shot4.mp3",
+    "seconds": 9.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/explainer_segments/vo_shot5.mp3",
+    "seconds": 11.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/explainer_segments/vo_shot6.mp3",
+    "seconds": 9.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "audio/explainer_segments/vo_shot7.mp3",
+    "seconds": 15.0,
+    "streams": [
+      {
+        "codec_type": "audio",
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "edit/clean_shots/shot1.mp4",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      }
+    ]
+  },
+  {
+    "path": "edit/clean_shots/shot2.mp4",
+    "seconds": 14.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      }
+    ]
+  },
+  {
+    "path": "edit/clean_shots/shot3.mp4",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      }
+    ]
+  },
+  {
+    "path": "edit/clean_shots/shot4.mp4",
+    "seconds": 9.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      }
+    ]
+  },
+  {
+    "path": "edit/clean_shots/shot5.mp4",
+    "seconds": 11.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      }
+    ]
+  },
+  {
+    "path": "edit/clean_shots/shot6.mp4",
+    "seconds": 9.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      }
+    ]
+  },
+  {
+    "path": "edit/clean_shots/shot7.mp4",
+    "seconds": 15.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      }
+    ]
+  },
+  {
+    "path": "edit/narrated_shots/shot1.mp4",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "edit/narrated_shots/shot2.mp4",
+    "seconds": 14.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "edit/narrated_shots/shot3.mp4",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "edit/narrated_shots/shot4.mp4",
+    "seconds": 9.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "edit/narrated_shots/shot5.mp4",
+    "seconds": 11.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "edit/narrated_shots/shot6.mp4",
+    "seconds": 9.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "edit/narrated_shots/shot7.mp4",
+    "seconds": 15.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "media/01_opening.mp4",
+    "seconds": 10.0,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  },
+  {
+    "path": "media/03_under_the_hood.mp4",
+    "seconds": 68.02322,
+    "streams": [
+      {
+        "codec_type": "video",
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "codec_name": "aac",
+        "sample_rate": "44100",
+        "r_frame_rate": "0/0"
+      }
+    ]
+  }
+]

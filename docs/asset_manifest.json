@@ -1,0 +1,64 @@
+{
+  "version": "InsightGen v2 refined",
+  "frame_size": [
+    1280,
+    720
+  ],
+  "frame_rate": 24,
+  "opening_seconds": 10,
+  "demo_narration_seconds": 96,
+  "explainer_seconds": 68.02322,
+  "voice_model": "speech-2.8-hd",
+  "voice_id": "English_Trustworth_Man",
+  "latest_narration": {
+    "shot5": {
+      "text": "Skill Foundry grounds reusable analytical primitives in Enterprise Knowledge Foundation, then composes them into governed, explainable skills that analysts can inspect and reuse.",
+      "voice": {
+        "voice_id": "English_Trustworth_Man",
+        "speed": 1.08,
+        "pitch": 0,
+        "vol": 1
+      },
+      "trace_id": "073880c11adec20ef786711a22240e97",
+      "raw_duration": 8.846803,
+      "tempo": 1,
+      "duration": 11,
+      "complete": true
+    },
+    "shot6": {
+      "text": "The Agent Observability Framework traces each step, evaluates quality, and helps diagnose issues, providing evidence for continuous improvement.",
+      "voice": {
+        "voice_id": "English_Trustworth_Man",
+        "speed": 1.08,
+        "pitch": 0,
+        "vol": 1
+      },
+      "trace_id": "073880c432f84ad04aca2afeee55949c",
+      "raw_duration": 8.208254,
+      "tempo": 1,
+      "duration": 9,
+      "complete": true
+    },
+    "shot7": {
+      "text": "Using AOF’s execution evidence, Harness Intelligence diagnoses, optimizes, and validates changes across the platform, turning successful patterns into reusable skills. Built once. Specialized many times. Improving continuously.",
+      "voice": {
+        "voice_id": "English_Trustworth_Man",
+        "speed": 1.08,
+        "pitch": 0,
+        "vol": 1
+      },
+      "trace_id": "073880c862e7c6db9154699375758270",
+      "raw_duration": 14.994286,
+      "tempo": 1.009716228956229,
+      "duration": 15,
+      "complete": true
+    }
+  },
+  "recording_included": false,
+  "edit_order": [
+    "media/01_opening.mp4",
+    "media/02_recording.mp4 (owner supplies)",
+    "media/03_under_the_hood.mp4"
+  ],
+  "credential_required_for_editing": false
+}
