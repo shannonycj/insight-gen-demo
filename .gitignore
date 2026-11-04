@@ -225,3 +225,7 @@ __marimo__/
 media/02_recording.mp4
 production/revision_v3_connected/*_full_narrated.mp4
 production/revision_v3_connected/*.assembly.json
+
+# Local final v3.1 render
+/production/revision_v3_1_assembly/insightgen_v3_1_full_narrated.mp4
+/production/revision_v3_1_assembly/*.assembly.json

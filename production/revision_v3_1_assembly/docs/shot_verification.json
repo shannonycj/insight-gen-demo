@@ -1,0 +1,39 @@
+{
+  "changed_picture_window": [
+    6,
+    18
+  ],
+  "new_requests": {
+    "video": 1,
+    "speech": 0
+  },
+  "model": "MiniMax-H3",
+  "task_id": "459595456889170",
+  "key_name": "MINIMAX_KEY_2",
+  "approved_voice_master_sha256": "2b89a0b17898f588486ddaa37f4ebd8bac6acffc3ccbfd69e188fb0973a65ed8",
+  "speech_retimed": false,
+  "exports": [
+    {
+      "file": "insightgen_v3_1_underthehood_silent.mp4",
+      "frames": 1680,
+      "seconds": 70.0,
+      "full_decode": "passed",
+      "sha256": "993d2db29de32ad14250f4b356136193c95eb3b8c5a9dfcb75d701c24cc3a636"
+    },
+    {
+      "file": "insightgen_v3_1_underthehood_narrated.mp4",
+      "frames": 1680,
+      "seconds": 70.0,
+      "full_decode": "passed",
+      "sha256": "031e252b62068ada351a154f0f9bd37fea5e71817d73f301515a40eafdc84130"
+    },
+    {
+      "file": "insightgen_differentiator_revised_preview.mp4",
+      "frames": 322,
+      "seconds": 13.416667,
+      "full_decode": "passed",
+      "sha256": "0d330cbd5b0c15ade405aa2ef4c0ac63240cba5fd6b0c4eb38c18952163f3e20"
+    }
+  ],
+  "approved_audio_correlation": 0.9999930400927604
+}
