@@ -1,0 +1,26 @@
+{
+  "picture_seconds": 70,
+  "decoded_frames": 1680,
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "differentiator_window": [
+    6,
+    18
+  ],
+  "replacement_overlay_windows": [
+    [
+      18,
+      26
+    ],
+    [
+      39,
+      70
+    ]
+  ],
+  "overlay_media": "Typography, vector business-team mark and check only",
+  "approved_aac_packets_identical": true,
+  "full_decode": "passed"
+}

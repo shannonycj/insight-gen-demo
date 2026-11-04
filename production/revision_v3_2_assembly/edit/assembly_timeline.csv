@@ -1,0 +1,4 @@
+part,start_seconds,duration_seconds,input
+Opening,0,14,media/01_opening.mp4
+Owner recording,14,101.283 reference after alignment,aligned recording supplied locally
+Under the hood,14 + aligned recording duration,70,media/03_under_the_hood_v3_2.mp4

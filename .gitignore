@@ -229,3 +229,7 @@ production/revision_v3_connected/*.assembly.json
 # Local final v3.1 render
 /production/revision_v3_1_assembly/insightgen_v3_1_full_narrated.mp4
 /production/revision_v3_1_assembly/*.assembly.json
+
+# Local final v3.2 render
+/production/revision_v3_2_assembly/insightgen_v3_2_full_narrated.mp4
+/production/revision_v3_2_assembly/*.assembly.json
