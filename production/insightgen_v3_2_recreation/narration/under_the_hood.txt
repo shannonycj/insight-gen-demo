@@ -1,0 +1,15 @@
+Now, let's see how we make this work in the Amex business setting.
+
+General-purpose agents bring reasoning and tools. Our differentiator is the enterprise system around them: business-owned knowledge, reusable expert methods, controlled data access, and evidence-driven improvement.
+
+Business teams curate definitions, policies, and context in Enterprise Knowledge Foundation. Their analytical expertise becomes reusable primitives and skills through Skill Foundry.
+
+The C-sixty definition grounds comparison, segmentation, and testing; those primitives compose into a governed skill, with its source links retained.
+
+Teams use InsightGen to apply that knowledge and skill, connect to permitted data, and return findings with evidence.
+
+As the agent runs, the Agent Observability Framework captures its execution trace and quality signals.
+
+Harness Intelligence uses the evidence to diagnose, test, and validate a change. The improved skill returns to Skill Foundry and the next agent run.
+
+Built once. Specialized many times. Improving continuously.

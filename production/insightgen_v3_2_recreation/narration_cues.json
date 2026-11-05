@@ -1,0 +1,339 @@
+{
+  "revision": "InsightGen v3.2",
+  "time_basis": "Seconds local to each section. Reference windows and actual speech placements are separate from the explainer picture cuts.",
+  "synthesis_field": "spoken_text",
+  "export": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "aspect_ratio": "16:9"
+  },
+  "voice": {
+    "voice_id": "English_ConfidentWoman",
+    "model": "speech-2.8-hd",
+    "speed": 1.04,
+    "pitch": -1,
+    "volume": 1,
+    "sample_rate": 44100,
+    "bitrate": 128000,
+    "channels": 1,
+    "format": "mp3",
+    "language": "English",
+    "pronunciation": [
+      "InsightGen/Insight Jen",
+      "C-sixty/see sixty",
+      "SQL/S Q L",
+      "AOF/A O F"
+    ],
+    "reference_file": "references/approved_voice.mp3",
+    "reference_sha256": "6d95d9378deca1f225d4014168f177324dfe764d6f898fe1d6b5712796709e63",
+    "credential_selector": "MINIMAX_KEY_2"
+  },
+  "sections": [
+    {
+      "id": "opening",
+      "picture_seconds": 14,
+      "cues": [
+        {
+          "id": "opening",
+          "reference_window_seconds": [
+            0.0,
+            14.0
+          ],
+          "approved_speech_window_seconds": [
+            0.0,
+            13.191837
+          ],
+          "spoken_text": "Today, we'll see InsightGen investigate a real business question on Blue Orbit. Then we'll go under the hood: how business expertise, connected components, and continuous improvement make it work at Amex.",
+          "on_screen": "Ease into InsightGen and a business question. Show the two agenda items before the recording."
+        }
+      ]
+    },
+    {
+      "id": "screen_recording",
+      "picture_reference_seconds": 99,
+      "approved_voice_master_seconds": 101.283356,
+      "recording": "Owner supplied",
+      "picture_alignment_required": [
+        7,
+        9
+      ],
+      "cues": [
+        {
+          "id": "demo_01",
+          "reference_window_seconds": [
+            0.0,
+            12.0
+          ],
+          "approved_speech_window_seconds": [
+            0.0,
+            9.845261
+          ],
+          "spoken_text": "This is InsightGen, the insight generation agent in Blue Orbit. We start by creating a workspace and enabling Lumi MCP and analytical skills.",
+          "on_screen": "Existing skill descriptions, workspace creation, and session configuration. Lumi MCP and analytical skills are enabled; web tools remain disabled."
+        },
+        {
+          "id": "demo_02",
+          "reference_window_seconds": [
+            12.0,
+            23.0
+          ],
+          "approved_speech_window_seconds": [
+            12.0,
+            22.33288
+          ],
+          "spoken_text": "We ask for a year-over-year comparison of dollar C-sixty trends for Charge and Lend. Before proceeding, the agent clarifies the methodology, metric, and analytical depth.",
+          "on_screen": "The user asks for US SBS dollar C-60 trends comparing 2025 and 2026, separately for Charge and Lend. The clarification form covers methodology, metric scope, and analytical depth."
+        },
+        {
+          "id": "demo_03",
+          "reference_window_seconds": [
+            23.0,
+            33.0
+          ],
+          "approved_speech_window_seconds": [
+            23.0,
+            32.636281
+          ],
+          "spoken_text": "It consults the governed knowledge bundle for metric definitions, calculation rules, and source tables, before querying the data and running the analysis.",
+          "on_screen": "Knowledge-agent activity, governed calculation details, source-table rules, and query execution."
+        },
+        {
+          "id": "demo_04",
+          "reference_window_seconds": [
+            33.0,
+            47.0
+          ],
+          "approved_speech_window_seconds": [
+            33.0,
+            44.029478
+          ],
+          "spoken_text": "The report opens with key findings and a like-for-like comparison. Both products show modest improvement. Linked references open business definitions directly in the governed knowledge bundle.",
+          "on_screen": "The trend report, executive summary, a clickable source citation opening the metric definition, and KPI comparison tables."
+        },
+        {
+          "id": "demo_05",
+          "reference_window_seconds": [
+            47.0,
+            58.0
+          ],
+          "approved_speech_window_seconds": [
+            47.0,
+            55.243084
+          ],
+          "spoken_text": "Interactive previews make the monthly patterns easy to inspect, with separate views for Charge and Lend and clear year-over-year comparisons.",
+          "on_screen": "Monthly trend lines and separate Charge and Lend year-over-year charts, each opened in an enlarged view."
+        },
+        {
+          "id": "demo_06",
+          "reference_window_seconds": [
+            58.0,
+            67.0
+          ],
+          "approved_speech_window_seconds": [
+            58.0,
+            65.093696
+          ],
+          "spoken_text": "The supporting SQL, data extracts, and charts are linked alongside the report, so we can inspect the underlying evidence.",
+          "on_screen": "Audit artifacts and deliverables, an executed SQL file, and a CSV data preview."
+        },
+        {
+          "id": "demo_07",
+          "reference_window_seconds": [
+            67.0,
+            80.0
+          ],
+          "approved_speech_window_seconds": [
+            67.0,
+            81.236735
+          ],
+          "spoken_text": "Next, we ask what might explain the second-quarter improvement. InsightGen ranks candidate hypotheses, spelling out their mechanisms, expected signals, and tests, rather than jumping straight to a conclusion.",
+          "on_screen": "The user asks what could explain the improvement, primarily in the second quarter. The agent produces a ranked hypothesis register with mechanisms, expected signals, and proposed tests."
+        },
+        {
+          "id": "demo_08",
+          "reference_window_seconds": [
+            80.0,
+            92.0
+          ],
+          "approved_speech_window_seconds": [
+            81.356735,
+            91.979864
+          ],
+          "spoken_text": "We ask it to test the top two. The results reject favorable portfolio mix as the explanation and find repayment behavior supportive for Charge, but not Lend.",
+          "on_screen": "\"Test the top 2 hypothesis,\" followed by empirical verdicts, decomposition findings, behavioral evidence, and linked artifacts."
+        },
+        {
+          "id": "demo_09",
+          "reference_window_seconds": [
+            92.0,
+            99.0
+          ],
+          "approved_speech_window_seconds": [
+            92.099864,
+            101.283356
+          ],
+          "spoken_text": "Finally, InsightGen brings the investigation together: an executive summary, decisive charts, supporting evidence, and recommended next steps.",
+          "on_screen": "Executive summary, key learnings, charts, evidence table, and recommended next steps."
+        }
+      ]
+    },
+    {
+      "id": "under_the_hood",
+      "picture_seconds": 70,
+      "picture_sequence": [
+        {
+          "start_seconds": 0,
+          "end_seconds": 6,
+          "action": "Bridge and platform foundation"
+        },
+        {
+          "start_seconds": 6,
+          "end_seconds": 18,
+          "action": "Continuous architectural reveal of the enterprise differentiator"
+        },
+        {
+          "start_seconds": 18,
+          "end_seconds": 26,
+          "action": "Business teams select, review and publish the C-60 definition"
+        },
+        {
+          "start_seconds": 26,
+          "end_seconds": 32,
+          "action": "Source-linked knowledge grounds the analytical primitives"
+        },
+        {
+          "start_seconds": 32,
+          "end_seconds": 39,
+          "action": "Compare, Segment and Test compose into a reusable skill"
+        },
+        {
+          "start_seconds": 39,
+          "end_seconds": 47,
+          "action": "Business question and governed skill enter the InsightGen run"
+        },
+        {
+          "start_seconds": 47,
+          "end_seconds": 54,
+          "action": "AOF captures the trace and selects a query-method review"
+        },
+        {
+          "start_seconds": 54,
+          "end_seconds": 65,
+          "action": "Harness diagnoses, tests, validates and returns the updated skill"
+        },
+        {
+          "start_seconds": 65,
+          "end_seconds": 70,
+          "action": "Connected platform and final line"
+        }
+      ],
+      "cues": [
+        {
+          "id": "bridge",
+          "reference_window_seconds": [
+            0.0,
+            6.0
+          ],
+          "approved_speech_window_seconds": [
+            0.0,
+            3.726803
+          ],
+          "spoken_text": "Now, let's see how we make this work in the Amex business setting.",
+          "on_screen": "Bridge to Amex and reveal the shared Blue Orbit foundation behind InsightGen."
+        },
+        {
+          "id": "differentiator",
+          "reference_window_seconds": [
+            6.0,
+            18.0
+          ],
+          "approved_speech_window_seconds": [
+            6.0,
+            19.322449
+          ],
+          "spoken_text": "General-purpose agents bring reasoning and tools. Our differentiator is the enterprise system around them: business-owned knowledge, reusable expert methods, controlled data access, and evidence-driven improvement.",
+          "on_screen": "Reveal the enterprise system around the same workspace. Open the knowledge and methods layers, show the controlled data connection and evidence paths, and match into the curation documents."
+        },
+        {
+          "id": "business_curation",
+          "reference_window_seconds": [
+            18.0,
+            30.0
+          ],
+          "approved_speech_window_seconds": [
+            19.442449,
+            31.168526
+          ],
+          "spoken_text": "Business teams curate definitions, policies, and context in Enterprise Knowledge Foundation. Their analytical expertise becomes reusable primitives and skills through Skill Foundry.",
+          "on_screen": "Business teams select the C-60 definition, review policy context and publish governed knowledge. Follow its source tether into the method layer."
+        },
+        {
+          "id": "grounded_skill",
+          "reference_window_seconds": [
+            30.0,
+            40.0
+          ],
+          "approved_speech_window_seconds": [
+            31.288526,
+            39.856689
+          ],
+          "spoken_text": "The C-sixty definition grounds comparison, segmentation, and testing; those primitives compose into a governed skill, with its source links retained.",
+          "on_screen": "Show the definition grounding Compare, Segment and Test. These primitives compose into a reusable skill while the source link stays visible."
+        },
+        {
+          "id": "agent_use",
+          "reference_window_seconds": [
+            40.0,
+            48.0
+          ],
+          "approved_speech_window_seconds": [
+            40.0,
+            47.012426
+          ],
+          "spoken_text": "Teams use InsightGen to apply that knowledge and skill, connect to permitted data, and return findings with evidence.",
+          "on_screen": "Business teams ask InsightGen. Use the native workspace animation and a fixed cue to connect the governed skill, permitted data, findings and evidence."
+        },
+        {
+          "id": "aof",
+          "reference_window_seconds": [
+            48.0,
+            55.0
+          ],
+          "approved_speech_window_seconds": [
+            48.0,
+            54.153265
+          ],
+          "spoken_text": "As the agent runs, the Agent Observability Framework captures its execution trace and quality signals.",
+          "on_screen": "Show the run’s execution trace and quality signals. Carry the query-method review label into Harness."
+        },
+        {
+          "id": "harness",
+          "reference_window_seconds": [
+            55.0,
+            66.0
+          ],
+          "approved_speech_window_seconds": [
+            55.0,
+            64.020952
+          ],
+          "spoken_text": "Harness Intelligence uses the evidence to diagnose, test, and validate a change. The improved skill returns to Skill Foundry and the next agent run.",
+          "on_screen": "Show the same query-method evidence arriving in Harness. Diagnose, test, validate, then return the updated skill to Skill Foundry and the next run."
+        },
+        {
+          "id": "close",
+          "reference_window_seconds": [
+            66.0,
+            70.0
+          ],
+          "approved_speech_window_seconds": [
+            65.15,
+            69.817211
+          ],
+          "spoken_text": "Built once. Specialized many times. Improving continuously.",
+          "on_screen": "Resolve into the connected platform view and deliver the closing line."
+        }
+      ]
+    }
+  ]
+}

@@ -18,3 +18,10 @@ require your re-edited recording.
 The [v3.1 assembly](production/revision_v3_1_assembly/README.md) and
 [connected v3 production sources](production/revision_v3_connected/README.md)
 are available for reference.
+
+## Recreate v3.2
+
+Use the [recreation brief](production/insightgen_v3_2_recreation/README.md)
+to hand the storyline, narration, voice and editorial feedback to another producer.
+The [downloadable ZIP](production/insightgen_v3_2_recreation_bundle.zip)
+includes the approved voice sample and visual reference sheet.
