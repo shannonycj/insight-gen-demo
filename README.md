@@ -1,18 +1,20 @@
 # InsightGen demo
 
-## v4 assembly
+## v4.1 assembly
 
-Use the [v4 delivery notes](production/revision_v4/V4_DELIVERY_NOTES.md) and
-[cue timings](production/revision_v4/v4_delivery.json) to assemble the current cut.
+Use the [v4 delivery notes](production/revision_v4_1/V4_1_DELIVERY_NOTES.md) and
+[cue timings](production/revision_v4_1/v4_1_delivery.json) to assemble the current cut.
 
-1. Start with the [narrated opening](production/revision_v4/01_opening_v4.mp4) (34.00 seconds).
-2. Add the owner-edited screen recording using the [ten demo stems](production/revision_v4/audio/demo).
-3. Add the [narrated explainer](production/revision_v4/03_under_the_hood_v4.mp4) (121.42 seconds).
+1. Start with the [narrated opening](production/revision_v4_1/01_opening_v4_1.mp4) (34.00 seconds).
+2. Add the owner-edited screen recording using the [ten demo stems](production/revision_v4_1/audio/demo).
+3. Add the [narrated explainer](production/revision_v4_1/03_under_the_hood_v4.mp4) (121.42 seconds).
    Insert the Galileo recording at 84.00 seconds in its 418-frame slot and apply the
-   [Galileo lower third](production/revision_v4/galileo_lower_third.png).
+   [Galileo lower third](production/revision_v4_1/galileo_lower_third.png).
 
-The [silent explainer](production/revision_v4/03_under_the_hood_v4_silent.mp4) and
-[separate narration](production/revision_v4/03_under_the_hood_v4_narration.wav) support local editing.
+The [silent explainer](production/revision_v4_1/03_under_the_hood_v4_silent.mp4) and
+[separate narration](production/revision_v4_1/03_under_the_hood_v4_narration.wav) support local editing.
+
+The [v4 handoff](production/revision_v4/V4_DELIVERY_NOTES.md) is available for reference.
 
 ## v3.2 assembly
 
