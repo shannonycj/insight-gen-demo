@@ -1,7 +1,23 @@
-# InsightGen demo v3.2
+# InsightGen demo
+
+## v4 assembly
+
+Use the [v4 delivery notes](production/revision_v4/V4_DELIVERY_NOTES.md) and
+[cue timings](production/revision_v4/v4_delivery.json) to assemble the current cut.
+
+1. Start with the [narrated opening](production/revision_v4/01_opening_v4.mp4) (34.00 seconds).
+2. Add the owner-edited screen recording using the [ten demo stems](production/revision_v4/audio/demo).
+3. Add the [narrated explainer](production/revision_v4/03_under_the_hood_v4.mp4) (121.42 seconds).
+   Insert the Galileo recording at 84.00 seconds in its 418-frame slot and apply the
+   [Galileo lower third](production/revision_v4/galileo_lower_third.png).
+
+The [silent explainer](production/revision_v4/03_under_the_hood_v4_silent.mp4) and
+[separate narration](production/revision_v4/03_under_the_hood_v4_narration.wav) support local editing.
+
+## v3.2 assembly
 
 Use the [v3.2 assembly instructions](production/revision_v3_2_assembly/README.md)
-for the current cut. The 70-second explainer uses the approved 12-second
+for the previous cut. The 70-second explainer uses the approved 12-second
 architectural reveal and fixed labels for the handoffs.
 
 | Order | Material | Duration |

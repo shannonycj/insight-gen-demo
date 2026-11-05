@@ -1,0 +1,470 @@
+{
+  "fps": 24,
+  "galileo_slot": {
+    "first_frame": 2016,
+    "frames": 418,
+    "first_second": 84.0,
+    "duration_seconds": 17.416666666666668,
+    "fill": "#061323",
+    "decoded_rgb": "#061423"
+  },
+  "durations": {
+    "opening": 34.0,
+    "under_the_hood": 121.41666666666667,
+    "reference_demo": 83.167,
+    "demo_hold_allowance": 0.8700000000000001,
+    "projected_final": 239.4536666666667
+  },
+  "voice_settings": {
+    "model": "speech-2.8-hd",
+    "voice_id": "English_ConfidentWoman",
+    "speed": 1.04,
+    "pitch": -1,
+    "volume": 1,
+    "sample_rate": 44100,
+    "bitrate": 128000,
+    "channels": 1,
+    "source_format": "mp3",
+    "language": "English",
+    "credential_selector": "MINIMAX_KEY_2",
+    "pronunciation": [
+      "InsightGen/Insight Jen",
+      "C-sixty/see sixty",
+      "SQL/S Q L",
+      "MCP/M C P",
+      "AOF/A O F",
+      "CFR/C F R"
+    ],
+    "inline_pronunciation": {
+      "aof_01": {
+        "Galileo": "(gæləˈleɪoʊ)"
+      }
+    }
+  },
+  "cues": {
+    "opening": [
+      {
+        "id": "opening_01",
+        "stem_start": 0.6,
+        "speech_start": 0.66,
+        "speech_end": 11.01,
+        "file": "audio/opening_01.wav",
+        "stem_seconds": 10.47,
+        "speech_offset": [
+          0.06,
+          10.41
+        ],
+        "sha256": "a46fd5808724482583f3a153d7d0c87da7e0729f7ee91cb7f359247aed472731",
+        "spoken_text": "Meet a CFR portfolio analyst. They monitor key portfolio metrics, like the dollar C-sixty roll rate, and investigate what drives every move."
+      },
+      {
+        "id": "opening_02",
+        "stem_start": 12.15,
+        "speech_start": 12.21,
+        "speech_end": 22.86,
+        "file": "audio/opening_02.wav",
+        "stem_seconds": 10.756938775510203,
+        "speech_offset": [
+          0.06,
+          10.71
+        ],
+        "sha256": "a78137e45627b2c801ed49cd9f2c5c694fc42149133d16722417cd9819886475"
+      },
+      {
+        "id": "opening_03",
+        "stem_start": 24.3,
+        "speech_start": 24.36,
+        "speech_end": 28.84,
+        "file": "audio/opening_03.wav",
+        "stem_seconds": 4.6,
+        "speech_offset": [
+          0.06,
+          4.54
+        ],
+        "sha256": "ff376ee4e4d06ab6327dc12114efbb39b2544b08c022e72e7e95ad466f4a198d"
+      }
+    ],
+    "screen_recording_provisional": [
+      {
+        "id": "demo_01",
+        "planned_demo_start": 0.0,
+        "speech_start": 0.06,
+        "speech_end": 7.65,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_01.wav",
+        "stem_seconds": 7.71,
+        "speech_offset": [
+          0.06,
+          7.65
+        ],
+        "sha256": "490e30ee0d3764baa760f681d707cc66947842710f36e79c0f6ceb8b9661f943"
+      },
+      {
+        "id": "demo_02",
+        "planned_demo_start": 9.5,
+        "speech_start": 9.56,
+        "speech_end": 16.93,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_02.wav",
+        "stem_seconds": 7.461315192743764,
+        "speech_offset": [
+          0.06,
+          7.43
+        ],
+        "sha256": "fe485a350354613f94ec945e14cb2887e81b8f590b279fcb10ee9e1e06cb5401"
+      },
+      {
+        "id": "demo_03",
+        "planned_demo_start": 18.667,
+        "speech_start": 18.727,
+        "speech_end": 24.937,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_03.wav",
+        "stem_seconds": 6.33,
+        "speech_offset": [
+          0.06,
+          6.27
+        ],
+        "sha256": "459022979cbf15912c05095c0fd7223b5835bbc538c969df42176f77246e025f"
+      },
+      {
+        "id": "demo_04",
+        "planned_demo_start": 27.167,
+        "speech_start": 27.227,
+        "speech_end": 32.927,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_04.wav",
+        "stem_seconds": 5.82,
+        "speech_offset": [
+          0.06,
+          5.76
+        ],
+        "sha256": "17e5ea6528b1054831f27e12189811468dec00daf09ff1ac38f9533d16fef147"
+      },
+      {
+        "id": "demo_05",
+        "planned_demo_start": 35.667,
+        "speech_start": 35.707,
+        "speech_end": 42.397,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_05.wav",
+        "stem_seconds": 6.79,
+        "speech_offset": [
+          0.04,
+          6.73
+        ],
+        "sha256": "2d992f23a644dda42e9d4a99758bd858d6a4a8ae5059c366c0ca30935fbfe3ee"
+      },
+      {
+        "id": "demo_06",
+        "planned_demo_start": 44.267,
+        "speech_start": 44.307,
+        "speech_end": 52.447,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_06.wav",
+        "stem_seconds": 8.24,
+        "speech_offset": [
+          0.04,
+          8.18
+        ],
+        "sha256": "d58c372bded552e69d162309896fdd1de5a5d2bf3029637fa04f46eef5d4e4c0"
+      },
+      {
+        "id": "demo_07a",
+        "planned_demo_start": 55.967,
+        "speech_start": 55.997,
+        "speech_end": 61.297,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_07a.wav",
+        "stem_seconds": 5.39,
+        "speech_offset": [
+          0.03,
+          5.33
+        ],
+        "sha256": "a40a782b4577349588d3b34fffd9b219d5a905fe1aa0d9883aace76a754a0f72"
+      },
+      {
+        "id": "demo_07b",
+        "planned_demo_start": 63.567,
+        "speech_start": 63.627,
+        "speech_end": 67.777,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_07b.wav",
+        "stem_seconds": 4.27,
+        "speech_offset": [
+          0.06,
+          4.21
+        ],
+        "sha256": "e063b1754234e786fb34a2416b9234f66dcdcd304acc1f1833166e1cb120f3a1"
+      },
+      {
+        "id": "demo_07c",
+        "planned_demo_start": 69.967,
+        "speech_start": 70.017,
+        "speech_end": 74.577,
+        "additional_picture_hold": 0,
+        "file": "audio/demo/demo_07c.wav",
+        "stem_seconds": 4.67,
+        "speech_offset": [
+          0.05,
+          4.61
+        ],
+        "sha256": "085d28496346743369b6828e47039afd8278808b885e0e01b7ee4713b4b72a1e"
+      },
+      {
+        "id": "demo_07d",
+        "planned_demo_start": 77.367,
+        "speech_start": 77.427,
+        "speech_end": 82.737,
+        "additional_picture_hold": 0.87,
+        "file": "audio/demo/demo_07d.wav",
+        "stem_seconds": 5.401519274376417,
+        "speech_offset": [
+          0.06,
+          5.37
+        ],
+        "sha256": "4ed49f1fb373800bb884cb65580807070bcc8306ca64b65fd47086cb98923820"
+      }
+    ],
+    "under_the_hood": [
+      {
+        "id": "bridge",
+        "stem_start": 0.0,
+        "speech_start": 0.18,
+        "speech_end": 3.69,
+        "file": "audio/reused/bridge_raw.mp3",
+        "stem_seconds": 3.7268027210884354,
+        "speech_offset": [
+          0.18,
+          3.69
+        ],
+        "sha256": "e2d12a067f6924d9381b031a39c97b440ddae471f29942240958f32eaaf820a7"
+      },
+      {
+        "id": "differentiator",
+        "stem_start": 6.0,
+        "speech_start": 6.17,
+        "speech_end": 19.17,
+        "file": "audio/reused/differentiator_raw.mp3",
+        "stem_seconds": 13.31045351473923,
+        "speech_offset": [
+          0.17,
+          13.17
+        ],
+        "sha256": "c256862b5ad6b4e242c972643e35c0264f953b2909272a32cd8cd34124fd59ea"
+      },
+      {
+        "id": "data_sources",
+        "stem_start": 19.65,
+        "speech_start": 19.71,
+        "speech_end": 32.21,
+        "file": "audio/data_sources.wav",
+        "stem_seconds": 12.62,
+        "speech_offset": [
+          0.06,
+          12.56
+        ],
+        "sha256": "a3a8f6700798dd195d4df98236c591a233c8ab307b7e4e5904a0e81e4b8d94a5"
+      },
+      {
+        "id": "knowledge",
+        "stem_start": 34.3,
+        "speech_start": 34.36,
+        "speech_end": 44.62,
+        "file": "audio/knowledge.wav",
+        "stem_seconds": 10.375419501133786,
+        "speech_offset": [
+          0.06,
+          10.32
+        ],
+        "sha256": "9827b390fd07f32f10606323747c992048ecb0c77b77f3b832d59db949693fde"
+      },
+      {
+        "id": "skill_foundry",
+        "stem_start": 48.3,
+        "speech_start": 48.36,
+        "speech_end": 57.17,
+        "file": "audio/skill_foundry.wav",
+        "stem_seconds": 8.93,
+        "speech_offset": [
+          0.06,
+          8.87
+        ],
+        "sha256": "82863faa1b26e39e6b3e2856ca5e36e8190d1bcb50e6e0b38f0c7183709029d9"
+      },
+      {
+        "id": "grounded_component",
+        "stem_start": 60.3,
+        "speech_start": 60.34,
+        "speech_end": 66.85,
+        "file": "audio/grounded_component.wav",
+        "stem_seconds": 6.594467120181406,
+        "speech_offset": [
+          0.04,
+          6.55
+        ],
+        "sha256": "2b88c3e59cca6bba30de63d9dad5a6018ebd4fcd21223d39cb64dbcc33c38bf8"
+      },
+      {
+        "id": "composed_skill",
+        "stem_start": 67.5,
+        "speech_start": 67.56,
+        "speech_end": 76.08,
+        "file": "audio/composed_skill.wav",
+        "stem_seconds": 8.64,
+        "speech_offset": [
+          0.06,
+          8.58
+        ],
+        "sha256": "0c0275219313763ef1dc06671cf42e13561ac94a3dd6f074e125cc53416bf682"
+      },
+      {
+        "id": "aof_01",
+        "stem_start": 81.5,
+        "speech_start": 81.56,
+        "speech_end": 88.63,
+        "file": "audio/aof_01.wav",
+        "stem_seconds": 7.19,
+        "speech_offset": [
+          0.06,
+          7.13
+        ],
+        "sha256": "d292df49d7712322ea67cb883aa23ed0d9210e3cb1eb11077a7fa4baf234db9a"
+      },
+      {
+        "id": "aof_02",
+        "stem_start": 91.1,
+        "speech_start": 91.15,
+        "speech_end": 95.04,
+        "file": "audio/aof_02.wav",
+        "stem_seconds": 4.0,
+        "speech_offset": [
+          0.05,
+          3.94
+        ],
+        "sha256": "7aec186c748227e97f5fd67a905ffb589d3f92ec38a6523996394677b24a6e69"
+      },
+      {
+        "id": "aof_03",
+        "stem_start": 96.5,
+        "speech_start": 96.56,
+        "speech_end": 100.0,
+        "file": "audio/aof_03.wav",
+        "stem_seconds": 3.56,
+        "speech_offset": [
+          0.06,
+          3.5
+        ],
+        "sha256": "04ed313ee4ff0774026579d1827a5cf52a6b989f04615655c82dfbf2b4f4560a"
+      },
+      {
+        "id": "harness",
+        "stem_start": 106.416667,
+        "speech_start": 106.556667,
+        "speech_end": 115.256667,
+        "file": "audio/reused/harness_raw.mp3",
+        "stem_seconds": 9.02095238095238,
+        "speech_offset": [
+          0.14,
+          8.84
+        ],
+        "sha256": "0a7df839af7cb8b754e92baffcd216bf8b92ba8b9c842adec072a61feb9fd5c8"
+      },
+      {
+        "id": "close",
+        "stem_start": 116.566667,
+        "speech_start": 116.766667,
+        "speech_end": 121.076667,
+        "file": "audio/reused/close_raw.mp3",
+        "stem_seconds": 4.667210884353741,
+        "speech_offset": [
+          0.2,
+          4.51
+        ],
+        "sha256": "f12dd66ca40c84e3404c40833180fefdefbb347d0581cfe6870093a7d4dfaa8b"
+      }
+    ]
+  },
+  "minimax_task_ids": {
+    "o1a": "460128274542965",
+    "o1b": "460129990467887",
+    "o2a": "460131335971242",
+    "o2b": "460134565282048",
+    "u3a": "460132848279912",
+    "u3b": "460134231540015",
+    "u4": "460137644331406",
+    "u5a": "460139178099074",
+    "u5b": "460138836279569"
+  },
+  "deviations": [
+    "The cut keeps the complete 16-second data sequence, six-second knowledge search and 12-second Skill Foundry sequence to preserve the visual handoffs. The Galileo slot therefore starts at 84 seconds.",
+    "The 4.0-second approved opening reference is a close-up of the rising chart. The second opening connector follows that frame's actual composition.",
+    "H3 returned extra frames. The edit removed those frames at low-motion points to preserve the conditioned endpoints at normal speed. Incidental O2b axis glyphs were masked locally.",
+    "The reused AOF plates retain their motion and use captions that match v4's every-run tracing language and the Galileo insert."
+  ],
+  "verification": {
+    "01_opening_v4.mp4": {
+      "frames": 816,
+      "audio_tracks": 1,
+      "full_decode": true
+    },
+    "03_under_the_hood_v4.mp4": {
+      "frames": 2914,
+      "audio_tracks": 1,
+      "full_decode": true
+    },
+    "03_under_the_hood_v4_silent.mp4": {
+      "frames": 2914,
+      "audio_tracks": 0,
+      "full_decode": true
+    },
+    "slot_solid_418_frames": true,
+    "narrated_and_silent_picture_identical": true,
+    "demo_stem_format_and_silence": true,
+    "asr": {
+      "stems_checked": 21,
+      "speakers": 1,
+      "transcription_differences": [
+        {
+          "id": "demo_01",
+          "differences": [
+            {
+              "expected": "lumi",
+              "recognized": "loomi"
+            }
+          ]
+        }
+      ],
+      "stems_superseded_by_retakes": [
+        "opening_01",
+        "aof_01"
+      ]
+    },
+    "pronunciation_retakes": [
+      {
+        "id": "aof_01",
+        "target": "Galileo",
+        "inline_ipa": "(gæləˈleɪoʊ)",
+        "recognized": "Every run is observable. The agent observability framework, integrated with Galileo, traces every model and tool call.",
+        "asr_trace_id": "073bd4ba6bece6af832394023b7c9c01",
+        "transcript_matched": true,
+        "video_stream_identical": true,
+        "pcm_outside_replaced_cue_identical": true
+      }
+    ],
+    "opening_wording_revision": {
+      "cue": "opening_01",
+      "phrase": "key portfolio metrics",
+      "recognized": "Meet a C F R portfolio analyst. They monitor key portfolio metrics like the dollar C sixty roll rate and investigate what drives every move.",
+      "asr_trace_id": "073bd6a19855c4833a6ae18bf9ae0aa3",
+      "transcript_matched": true,
+      "pcm_outside_replaced_cue_identical": true,
+      "picture_from_second_scene_identical": true
+    }
+  },
+  "visual_review_notes": [
+    "The O1 question pulse takes the shape of a question-mark pictogram.",
+    "Small stylized chart ticks and a blue trace outline remain in the data sequence. The distinct silver web trace arrives through the labelling ring.",
+    "The Skill Foundry guard ring and the three contracted primitives are visible. The edge-case deflection is subtle."
+  ]
+}
